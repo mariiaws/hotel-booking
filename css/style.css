@@ -2,4 +2,23 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+}
+
 /*# sourceMappingURL=style.css.map */
