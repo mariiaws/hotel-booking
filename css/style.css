@@ -109,6 +109,61 @@
   color: #EC1F46;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -140,6 +195,32 @@
   .container {
     max-width: 576px;
     width: 92%;
+  }
+
+  .nav, .search, .user {
+    display: none;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  .menu-button .menu-button__line {
+    width: 16px;
+    height: 1px;
+    background: #333333;
+  }
+}
+@media (max-width: 576px) {
+  .logo-text {
+    font-size: 14px;
   }
 }
 .container {
@@ -207,6 +288,10 @@
   line-height: 18px;
 }
 
+.header-top__menu-button {
+  display: none;
+}
+
 .nav {
   background-color: #0A223D;
 }
@@ -227,6 +312,61 @@
   text-transform: uppercase;
   font-family: "Mulish", sans-serif;
   font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
 }
 
 @media (max-width: 1200px) {
@@ -260,6 +400,32 @@
   .container {
     max-width: 576px;
     width: 92%;
+  }
+
+  .nav, .search, .user {
+    display: none;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  .menu-button .menu-button__line {
+    width: 16px;
+    height: 1px;
+    background: #333333;
+  }
+}
+@media (max-width: 576px) {
+  .logo-text {
+    font-size: 14px;
   }
 }
 

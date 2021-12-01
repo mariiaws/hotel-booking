@@ -1,3 +1,10 @@
+//Подключение базовых настроек
+@import "settings.scss";
+//Наследование
+@import "inherit";
+//Переменные
+@import "variables";
+
 //Медиа запросы
 @media (max-width: 1200px) {
   .container {
@@ -10,8 +17,8 @@
     max-width: 700px;
   }
 
-  .header{
-    .header-top{
+  .header {
+    .header-top {
       padding: 30px 0 30px 0;
     }
   }
@@ -24,6 +31,7 @@
   .nav {
     .nav-menu {
       padding: 22px 0 22px 0;
+
       .nav-menu__item {
         .nav-menu__link {
           font-size: 12px;
@@ -34,12 +42,38 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .container {
     max-width: 576px;
     width: 92%;
   }
+  .nav, .search, .user {
+    display: none;
+  }
+
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    .menu-button__line {
+      width: 16px;
+      height: 1px;
+      background: $text-color;
+    }
+  }
 }
 
+@media (max-width: 576px) {
 
+  .logo-text {
+    font-size: 14px;
+  }
+}
