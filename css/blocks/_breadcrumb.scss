@@ -1,0 +1,40 @@
+//Подключение базовых настроек
+@import "../settings";
+//Наследование
+@import "../inherit";
+//Переменные
+@import "../variables";
+//Хлебные крошки
+
+.breadcrumb {
+  background: $secondary;
+
+  .breadcrumb-list {
+    display: flex;
+    margin: 0;
+    padding: 18px 0;
+    list-style: none;
+  }
+
+  .breadcrumb-list__item {
+    font-size: 10px;
+    line-height: 13px;
+
+    &:not(:last-child) {
+      &::after {
+        content: '/';
+        margin-right: 4px;
+
+      }
+    }
+  }
+
+  .breadcrumb-list__link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+
+
+

@@ -1,12 +1,16 @@
+@import "variables";
+
 * {
   box-sizing: border-box;
 }
+
 
 @font-face {
   font-family: 'Luckiest Guy', cursive;
   font-style: normal;
   font-weight: 400;
 }
+
 //Nunito
 @font-face {
   font-family: 'Nunito', sans-serif;
@@ -19,6 +23,7 @@
   font-style: normal;
   font-weight: 600;
 }
+
 @font-face {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
@@ -49,3 +54,22 @@
   font-style: normal;
   font-weight: 700;
 }
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background: $secondary;
+  color: $text-color;
+}
+
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+
+img{
+  max-width: 100%;
+}
+
