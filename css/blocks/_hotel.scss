@@ -36,14 +36,14 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
-    color: #333333;
+    color: $text-color;
     margin-top: 4px;
     flex-basis: 70%;
   }
 
 
   .offer {
-    color: #ffffff;
+    color: $light;
     padding: 3px 9px;
     font-weight: 600;
     font-size: 10px;
@@ -63,9 +63,9 @@
   .rating {
     width: 65px;
     height: 45px;
-    color: #ffffff;
+    color: $light;
     align-items: center;
-    background: #EC1F46;
+    background: $primary;
     border-radius: 4px;
     display: flex;
     flex-direction: column;

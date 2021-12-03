@@ -318,19 +318,28 @@ img {
   font-size: 12px;
   line-height: 15px;
   color: #333333;
+  outline: none;
 }
 .search .search-label .search-label__button {
   padding: 12px 25px;
   border: none;
   background-color: #EC1F46;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
   /*
   width: 65px;
   height: 100%; ничего не изменилось
   top: 0;
   right: 0;
   */
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+}
+.search .search-label .search-label__button:hover {
+  background: lightcoral;
+  transition: 0.2s;
+}
+.search .search-label .search-label__button:active {
+  background: #333333;
 }
 .search .search-label .search-label__button .icon-search {
   width: 20px;
@@ -379,6 +388,17 @@ img {
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 700;
+}
+.nav .nav-menu .nav-menu__item .nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.2s;
+  width: 0;
+}
+.nav .nav-menu .nav-menu__item .nav-menu__link:hover:after {
+  width: 100%;
 }
 
 * {
