@@ -332,6 +332,11 @@ img {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
+.search .search-label .search-label__button .icon-search {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
 
 .user {
   display: flex;
@@ -705,6 +710,11 @@ img {
 }
 .hotel .stars {
   flex-basis: 100%;
+}
+.hotel .stars__icon {
+  width: 10px;
+  height: 10px;
+  fill: chocolate;
 }
 .hotel .hotel-name {
   font-weight: bold;

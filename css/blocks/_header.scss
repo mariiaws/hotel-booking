@@ -43,7 +43,6 @@
       font-size: 12px;
       line-height: 15px;
       color: $text-color;
-
     }
 
     .search-label__button {
@@ -59,10 +58,19 @@
       */
       border-top-right-radius: 6px;
       border-bottom-right-radius: 6px;
+
+      .icon-search{
+        width: 20px;
+        height: 20px;
+        fill: #ffffff;
+      }
     }
 
   }
 }
+
+
+
 
 .user {
   display: flex;

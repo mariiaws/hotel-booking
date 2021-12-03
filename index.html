@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap"
           rel="stylesheet">
     <title>Best Tour Plan - Hotel Booking</title>
+    <link rel="stylesheet" href="css/blocks/_breadcrumb.scss">
+    <link rel="stylesheet" href="css/blocks/_header.scss">
 </head>
 <body>
 
@@ -19,7 +21,9 @@
                 <label class="search-label">
                     <input type="text" class="search-label__input" placeholder="Search Location">
                     <button class="search-label__button">
-                        <img src="img/search.svg" alt="Icon: Search">
+                        <svg class="icon-search">
+                            <use xlink:href="img/sprite.svg#search"></use>
+                        </svg>
                     </button>
                 </label>
             </form>
@@ -73,11 +77,25 @@
             <div class="hotel-info__text">
                 <div class="hotel-wrapper">
                     <div class="stars">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
+                        <svg class="stars__icon">
+                            <use xlink:href="img/sprite.svg#stars"></use>
+                        </svg>
+
+                        <svg class="stars__icon">
+                            <use xlink:href="img/sprite.svg#stars"></use>
+                        </svg>
+
+                        <svg class="stars__icon">
+                            <use xlink:href="img/sprite.svg#stars"></use>
+                        </svg>
+
+                        <svg class="stars__icon">
+                            <use xlink:href="img/sprite.svg#stars"></use>
+                        </svg>
+
+                        <svg class="stars__icon">
+                            <use xlink:href="img/sprite.svg#stars"></use>
+                        </svg>
                     </div>
                     <div class="hotel-name">GRAND HILTON HOTEL</div>
                     <span class="offer">Flash Offer</span>
