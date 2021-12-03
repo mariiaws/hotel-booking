@@ -1,0 +1,82 @@
+//Подключение базовых настроек
+@import "../settings";
+//Наследование
+@import "../inherit";
+//Переменные
+@import "../variables";
+//Медиа запросы
+@import "../media";
+
+.hotel {
+  padding: 20px 0;
+
+  .hotel-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hotel-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .stars {
+    flex-basis: 100%;
+  }
+
+  .hotel-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+    margin-top: 4px;
+    flex-basis: 70%;
+  }
+
+
+  .offer {
+    color: #ffffff;
+    padding: 3px 9px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    background: $primary;
+    border-radius: 3px;
+  }
+
+  .description {
+    padding: 4px 0;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+
+  .rating {
+    width: 65px;
+    height: 45px;
+    color: #ffffff;
+    align-items: center;
+    background: #EC1F46;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .rating__text {
+      font-weight: 600;
+      font-size: 8px;
+      line-height: 10px;
+    }
+
+    .rating__counter {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+  }
+
+}

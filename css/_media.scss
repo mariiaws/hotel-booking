@@ -69,6 +69,31 @@
       background: $text-color;
     }
   }
+
+
+  .hotel {
+
+    .hotel-info__text{
+      width: 100%;
+    }
+    .hotel-wrapper{
+      justify-content: space-between;
+    }
+    .stars {
+      flex-basis: auto;
+    }
+    .hotel-name{
+      flex-basis: 100%;
+      margin-top: 10px;
+    }
+    .offer {
+      order: -1;
+    }
+
+    .hotel-info__rating {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 576px) {

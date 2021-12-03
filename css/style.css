@@ -265,6 +265,26 @@ img {
     height: 1px;
     background: #333333;
   }
+
+  .hotel .hotel-info__text {
+    width: 100%;
+  }
+  .hotel .hotel-wrapper {
+    justify-content: space-between;
+  }
+  .hotel .stars {
+    flex-basis: auto;
+  }
+  .hotel .hotel-name {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+  .hotel .offer {
+    order: -1;
+  }
+  .hotel .hotel-info__rating {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -520,6 +540,77 @@ img {
   color: #EC1F46;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -572,6 +663,237 @@ img {
     width: 16px;
     height: 1px;
     background: #333333;
+  }
+
+  .hotel .hotel-info__text {
+    width: 100%;
+  }
+  .hotel .hotel-wrapper {
+    justify-content: space-between;
+  }
+  .hotel .stars {
+    flex-basis: auto;
+  }
+  .hotel .hotel-name {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+  .hotel .offer {
+    order: -1;
+  }
+  .hotel .hotel-info__rating {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .logo-text {
+    font-size: 14px;
+  }
+}
+.hotel {
+  padding: 20px 0;
+}
+.hotel .hotel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotel .hotel-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hotel .stars {
+  flex-basis: 100%;
+}
+.hotel .hotel-name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333333;
+  margin-top: 4px;
+  flex-basis: 70%;
+}
+.hotel .offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+  border-radius: 3px;
+}
+.hotel .description {
+  padding: 4px 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+.hotel .rating {
+  width: 65px;
+  height: 45px;
+  color: #ffffff;
+  align-items: center;
+  background: #EC1F46;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hotel .rating .rating__text {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+}
+.hotel .rating .rating__counter {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .header .header-top {
+    padding: 30px 0 30px 0;
+  }
+
+  .logo-text {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .nav .nav-menu {
+    padding: 22px 0 22px 0;
+  }
+  .nav .nav-menu .nav-menu__item .nav-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+
+  .nav, .search, .user {
+    display: none;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  .menu-button .menu-button__line {
+    width: 16px;
+    height: 1px;
+    background: #333333;
+  }
+
+  .hotel .hotel-info__text {
+    width: 100%;
+  }
+  .hotel .hotel-wrapper {
+    justify-content: space-between;
+  }
+  .hotel .stars {
+    flex-basis: auto;
+  }
+  .hotel .hotel-name {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+  .hotel .offer {
+    order: -1;
+  }
+  .hotel .hotel-info__rating {
+    display: none;
   }
 }
 @media (max-width: 576px) {
