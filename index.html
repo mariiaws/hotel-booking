@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css"><!--Чтобы всё было чётко пиксель в пиксель-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap"
           rel="stylesheet">
     <title>Best Tour Plan - Hotel Booking</title>
-    <link rel="stylesheet" href="css/blocks/_breadcrumb.scss">
-    <link rel="stylesheet" href="css/blocks/_header.scss">
 </head>
 <body>
 
@@ -108,12 +107,56 @@
                 <div class="rating__counter">4.5/5</div>
             </div>
         </div>
+
+        <div class="hotel-grid">
+            <div class="slider">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="img/slide.jpg" class="grand-hilton-hotel"
+                                 alt="Photo Hotel: GRAND HILTON HOTEL"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slide-1.jpg" class="grand-hilton-hotel"
+                                 alt="Photo-1 Hotel: GRAND HILTON HOTEL"/></div>
+
+                        <div class="swiper-slide">
+                            <img src="img/slide-2.jpg" class="grand-hilton-hotel"
+                                 alt="Photo-2 Hotel: GRAND HILTON HOTEL"/></div>
+
+                        <div class="swiper-slide">
+                            <img src="img/slide-3.jpg"
+                                 class="grand-hilton-hotel"
+                                 alt="Photo-2 Hotel: GRAND HILTON HOTEL"/></div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+
+                    <button class="slide-button slide-button--prev">
+                        <svg class="slide-button__arrow-prev">
+                            <use xlink:href="img/sprite.svg#arrow-pev" class="arrow-pev"></use>
+                        </svg>
+                    </button>
+
+                    <button class="slide-button slide-button--next">
+                        <svg class="slide-button__arrow-next">
+                            <use xlink:href="img/sprite.svg#arrow-next" class="arrow-next"></use>
+                        </svg>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
 
 </body>
-<!--
+<script src="js/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
--->
+
 </html>

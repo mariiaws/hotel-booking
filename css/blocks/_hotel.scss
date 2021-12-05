@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 20px;
   }
 
   .hotel-wrapper {
@@ -26,11 +27,11 @@
     flex-basis: 100%;
   }
 
-.stars__icon{
-  width: 10px;
-  height: 10px;
-  fill: chocolate;
-}
+  .stars__icon {
+    width: 10px;
+    height: 10px;
+    fill: chocolate;
+  }
 
   .hotel-name {
     font-weight: bold;
@@ -84,5 +85,98 @@
     }
 
   }
+}
+
+
+.swiper {
+  width: 65.7%;
+  margin: 0;
+  position: relative;
+
+  &:hover {
+    .slide-button {
+      opacity: 1;
+      transition: opacity .3s;
+    }
+  }
+}
+
+
+.swiper-slide {
+  cursor: pointer;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+    z-index: 10;
+    border-radius: 8px;
+  }
+}
+
+
+.grand-hilton-hotel {
+  width: 728px;
+  height: 450px;
+  border-radius: 8px;
+}
+
+
+.slide-button {
+  position: absolute;
+  padding: 0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  top: 50%;
+  background: transparent;
+  z-index: 99;
+  opacity: 0;
+  color: #fff;
+  transition: opacity .3s;
+}
+
+
+.slide-button--prev {
+  left: 18px;
+}
+
+.slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
 
 }
+
+
+.slide-button--next {
+  right: 18px;
+}
+
+.slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
