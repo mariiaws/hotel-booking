@@ -48,22 +48,10 @@
     }
 
     .search-label__button {
+      @extend %button;
       padding: 12px 25px;
-      border: none;
-      background-color: $primary;
       border-top-right-radius: 6px;
       border-bottom-right-radius: 6px;
-      cursor: pointer;
-
-      &:hover {
-        background: $focus-light;
-        transition: 0.2s;
-      }
-
-      &:active {
-        background: $text-color;
-
-      }
 
       //position: absolute; На данный момент не вижу смысла
       /*
@@ -133,7 +121,7 @@
           display: block;
           height: 1px;
           background: $primary;
-          transition: 0.2s;
+          transition: 0.4s;
           width: 0;
         }
 

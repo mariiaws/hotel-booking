@@ -1,7 +1,5 @@
 //Тут храниться наследование/расширение
 
-
-
 //Добавление в проект через @extend%fonts;
 
 @import "variables";
@@ -13,20 +11,38 @@
   line-height: 24px;
   color: $text-color;
   text-decoration: none;
+
   .logo-text__tour {
     color: $primary;
   }
 }
 
 
-%footer-logo{
+%footer-logo {
   font-family: $font-logo;
   font-size: 64px;
   line-height: 64px;
   color: $light;
   text-decoration: none;
+
   .logo-text__tour {
     color: $primary;
   }
 }
 
+
+%button {
+  border: none;
+  cursor: pointer;
+  background-color: $primary;
+
+  &:hover {
+    background: $focus-light;
+    transition: 0.3s;
+  }
+
+  &:active {
+    background: $text-color;
+
+  }
+}
