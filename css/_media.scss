@@ -10,6 +10,10 @@
   .container {
     max-width: 960px;
   }
+
+  .slide {
+    width: 60%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -40,6 +44,27 @@
       }
     }
   }
+
+  .hotel-grid {
+    flex-wrap: wrap;
+  }
+
+  .slide {
+    width: 100%;
+  }
+
+  .booking-map {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: row;
+
+  }
+
+  .booking {
+    width: 46%;
+  }
+
+
 }
 
 @media (max-width: 768px) {
@@ -73,19 +98,23 @@
 
   .hotel {
 
-    .hotel-info__text{
+    .hotel-info__text {
       width: 100%;
     }
-    .hotel-wrapper{
+
+    .hotel-wrapper {
       justify-content: space-between;
     }
+
     .stars {
       flex-basis: auto;
     }
-    .hotel-name{
+
+    .hotel-name {
       flex-basis: 100%;
       margin-top: 10px;
     }
+
     .offer {
       order: -1;
     }
@@ -94,6 +123,24 @@
       display: none;
     }
   }
+
+  .grand-hilton-hotel {
+    height: 100%;
+  }
+  .swiper-slide {
+    height: auto;
+  }
+
+
+  .booking {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .map {
+    width: 100%;
+  }
+
+
 }
 
 @media (max-width: 576px) {
