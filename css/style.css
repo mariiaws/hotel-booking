@@ -858,7 +858,7 @@ img {
 
 .hotel-grid {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-between;
 }
 
@@ -934,6 +934,12 @@ img {
   fill: cornsilk;
 }
 
+.booking-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .booking {
   color: #ffffff;
   font-family: "Nunito", sans-serif;
@@ -949,17 +955,19 @@ img {
   padding-bottom: 9px;
 }
 
-.price .price__start {
+.price__start {
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
 }
-.price .price__pricetag {
+
+.price__pricetag {
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
 }
-.price .price__per-room {
+
+.price__per-room {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -970,25 +978,29 @@ img {
   font-size: 12px;
   line-height: 16px;
 }
-.person-room .person-room__guest {
+
+.person-room__guest {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
-.person-room .human-icon {
+
+.human-icon {
   width: 14px;
   height: 14px;
   fill: #ffffff;
 }
-.person-room .guest-text {
+
+.guest-text {
   margin-left: 5px;
 }
-.person-room .person-room__room {
+
+.person-room__room {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.person-room .person-room__room .home-icon {
+.person-room__room .home-icon {
   width: 14px;
   height: 14px;
   fill: #ffffff;
@@ -1002,11 +1014,13 @@ img {
   line-height: 25px;
   padding-bottom: 17px;
 }
-.call-center .call-center__number {
+
+.call-center__number {
   text-decoration: none;
   color: #ffffff;
 }
-.call-center .telephone-icon {
+
+.telephone-icon {
   width: 14px;
   height: 14px;
   fill: #ffffff;
