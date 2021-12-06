@@ -970,12 +970,25 @@ img {
   font-size: 12px;
   line-height: 16px;
 }
-.person-room .person-room__guest .human-icon {
+.person-room .person-room__guest {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.person-room .human-icon {
   width: 14px;
   height: 14px;
   fill: #ffffff;
 }
-.person-room .person-room__text .home-icon {
+.person-room .guest-text {
+  margin-left: 5px;
+}
+.person-room .person-room__room {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.person-room .person-room__room .home-icon {
   width: 14px;
   height: 14px;
   fill: #ffffff;

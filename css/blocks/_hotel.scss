@@ -220,23 +220,37 @@
   line-height: 16px;
 
   .person-room__guest {
-
-    .human-icon {
-      width: 14px;
-      height: 14px;
-      fill: $light;
-    }
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
   }
 
-  .person-room__text {
+  .human-icon {
+    width: 14px;
+    height: 14px;
+    fill: $light;
+  }
+
+  .guest-text {
+    margin-left: 5px;
+  }
+
+
+  .person-room__room {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     .home-icon {
       width: 14px;
       height: 14px;
       fill: $light;
     }
+
   }
 
 }
+
 
 .call-center {
   display: flex;
@@ -246,10 +260,10 @@
   line-height: 25px;
   padding-bottom: 17px;
 
-.call-center__number{
-  text-decoration: none;
-  color: $light;
-}
+  .call-center__number {
+    text-decoration: none;
+    color: $light;
+  }
 
   .telephone-icon {
     width: 14px;
@@ -257,7 +271,6 @@
     fill: $light;
   }
 }
-
 
 .booking__button {
   @extend %button;
@@ -268,6 +281,7 @@
   line-height: 19px;
   border-radius: 4px;
 }
+
 
 
 
