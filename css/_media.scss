@@ -11,7 +11,7 @@
     max-width: 960px;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 60%;
   }
 }
@@ -49,7 +49,7 @@
     flex-wrap: wrap;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 100%;
   }
 
@@ -126,7 +126,7 @@
   .grand-hilton-hotel {
     height: 100%;
   }
-  .swiper-slide {
+  .hotel-grid__swiper-slide{
     height: auto;
   }
 

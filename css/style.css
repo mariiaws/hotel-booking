@@ -262,7 +262,7 @@ img {
     max-width: 960px;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 60%;
   }
 }
@@ -292,7 +292,7 @@ img {
     flex-wrap: wrap;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 100%;
   }
 
@@ -357,7 +357,7 @@ img {
     height: 100%;
   }
 
-  .swiper-slide {
+  .hotel-grid__swiper-slide {
     height: auto;
   }
 
@@ -831,7 +831,7 @@ img {
     max-width: 960px;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 60%;
   }
 }
@@ -861,7 +861,7 @@ img {
     flex-wrap: wrap;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 100%;
   }
 
@@ -926,7 +926,7 @@ img {
     height: 100%;
   }
 
-  .swiper-slide {
+  .hotel-grid__swiper-slide {
     height: auto;
   }
 
@@ -1086,24 +1086,24 @@ img {
   justify-content: space-between;
 }
 
-.slide {
+.hotel-grid__slide {
   width: 65.7%;
 }
 
-.swiper {
+.hotel-grid__swiper {
   width: 100%;
   margin: 0;
   position: relative;
 }
-.swiper:hover .slide-button {
+.hotel-grid__swiper:hover .slide-button {
   opacity: 1;
   transition: opacity 0.3s;
 }
 
-.swiper-slide {
+.hotel-grid__swiper-slide {
   cursor: pointer;
 }
-.swiper-slide:after {
+.hotel-grid__swiper-slide:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -1444,7 +1444,7 @@ img {
     max-width: 960px;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 60%;
   }
 }
@@ -1474,7 +1474,7 @@ img {
     flex-wrap: wrap;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 100%;
   }
 
@@ -1539,7 +1539,7 @@ img {
     height: 100%;
   }
 
-  .swiper-slide {
+  .hotel-grid__swiper-slide {
     height: auto;
   }
 
@@ -1849,7 +1849,7 @@ img {
     max-width: 960px;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 60%;
   }
 }
@@ -1879,7 +1879,7 @@ img {
     flex-wrap: wrap;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 100%;
   }
 
@@ -1944,7 +1944,7 @@ img {
     height: 100%;
   }
 
-  .swiper-slide {
+  .hotel-grid__swiper-slide {
     height: auto;
   }
 
@@ -2023,84 +2023,6 @@ img {
     line-height: 15px;
   }
 }
-.slide {
-  width: 65.7%;
-}
-
-.swiper {
-  width: 100%;
-  margin: 0;
-  position: relative;
-}
-.swiper:hover .slide-button {
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-.swiper-slide {
-  cursor: pointer;
-}
-.swiper-slide:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
-  z-index: 10;
-  border-radius: 8px;
-}
-
-.grand-hilton-hotel {
-  width: 728px;
-  height: 450px;
-  border-radius: 8px;
-}
-
-.slide-button {
-  position: absolute;
-  padding: 0;
-  border: none;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  top: 50%;
-  background: transparent;
-  z-index: 99;
-  opacity: 0;
-  color: #fff;
-  transition: opacity 0.3s;
-}
-
-.slide-button--prev {
-  left: 18px;
-}
-
-.slide-button__arrow-prev {
-  width: 30px;
-  height: 30px;
-  fill: cornsilk;
-}
-
-.slide-button--next {
-  right: 18px;
-}
-
-.slide-button__arrow-next {
-  width: 30px;
-  height: 30px;
-  fill: cornsilk;
-}
-
-.booking-map {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -2192,7 +2114,7 @@ img {
     max-width: 960px;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 60%;
   }
 }
@@ -2222,7 +2144,7 @@ img {
     flex-wrap: wrap;
   }
 
-  .slide {
+  .hotel-grid__slide {
     width: 100%;
   }
 
@@ -2287,7 +2209,7 @@ img {
     height: 100%;
   }
 
-  .swiper-slide {
+  .hotel-grid__swiper-slide {
     height: auto;
   }
 

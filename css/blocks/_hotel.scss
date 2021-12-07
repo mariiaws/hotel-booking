@@ -97,11 +97,11 @@
   justify-content: space-between;
 }
 
-.slide {
+.hotel-grid__slide {
   width: 65.7%;
 }
 
-.swiper {
+.hotel-grid__swiper {
   width: 100%;
   margin: 0;
   position: relative;
@@ -115,7 +115,7 @@
 }
 
 
-.swiper-slide {
+.hotel-grid__swiper-slide {
   cursor: pointer;
 
   &:after {
