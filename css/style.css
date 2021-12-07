@@ -71,17 +71,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .booking__button, .search .search-label .search-label__button {
+.subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .booking__button:hover, .search .search-label .search-label__button:hover {
+.subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .booking__button:active, .search .search-label .search-label__button:active {
+.subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -157,17 +157,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .booking__button, .search .search-label .search-label__button {
+.subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .booking__button:hover, .search .search-label .search-label__button:hover {
+.subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .booking__button:active, .search .search-label .search-label__button:active {
+.subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -243,17 +243,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .booking__button, .search .search-label .search-label__button {
+.subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .booking__button:hover, .search .search-label .search-label__button:hover {
+.subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .booking__button:active, .search .search-label .search-label__button:active {
+.subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -439,7 +439,8 @@ img {
 .header {
   background: #ffffff;
 }
-.header .header-top {
+
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -449,13 +450,15 @@ img {
 .search {
   flex-basis: 50%;
 }
-.search .search-label {
+
+.search-label {
   display: flex;
   overflow: hidden;
   border-radius: 6px;
   height: 40px;
 }
-.search .search-label .search-label__input {
+
+.search-label__input {
   width: 250px;
   padding: 12px 10px 13px 23px;
   background: #f5fafe;
@@ -465,7 +468,8 @@ img {
   color: #333333;
   outline: none;
 }
-.search .search-label .search-label__button {
+
+.search-label__button {
   padding: 12px 25px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -476,7 +480,8 @@ img {
   right: 0;
   */
 }
-.search .search-label .search-label__button .icon-search {
+
+.icon-search {
   width: 20px;
   height: 20px;
   fill: #ffffff;
@@ -487,13 +492,15 @@ img {
   align-items: center;
   text-decoration: none;
 }
-.user .user__avatar {
+
+.user__avatar {
   border-radius: 50%;
   width: 40px;
   height: 40px;
   object-fit: cover;
 }
-.user .user__name {
+
+.user__name {
   margin-left: 18px;
   color: #333333;
   font-size: 14px;
@@ -507,16 +514,19 @@ img {
 .nav {
   background-color: #0A223D;
 }
-.nav .nav-menu {
+
+.nav-menu {
   display: flex;
   justify-content: space-between;
   padding: 31px 0 31px;
   margin: 0;
 }
-.nav .nav-menu .nav-menu__item {
+
+.nav-menu__item {
   list-style: none;
 }
-.nav .nav-menu .nav-menu__item .nav-menu__link {
+
+.nav-menu__link {
   text-decoration: none;
   color: #ffffff;
   font-size: 14px;
@@ -524,7 +534,7 @@ img {
   text-transform: uppercase;
   font-weight: 700;
 }
-.nav .nav-menu .nav-menu__item .nav-menu__link:after {
+.nav-menu__link:after {
   content: "";
   display: block;
   height: 1px;
@@ -532,7 +542,7 @@ img {
   transition: 0.4s;
   width: 0;
 }
-.nav .nav-menu .nav-menu__item .nav-menu__link:hover:after {
+.nav-menu__link:hover:after {
   width: 100%;
 }
 
@@ -608,17 +618,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .booking__button, .search .search-label .search-label__button {
+.subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .booking__button:hover, .search .search-label .search-label__button:hover {
+.subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .booking__button:active, .search .search-label .search-label__button:active {
+.subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -716,17 +726,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .booking__button, .search .search-label .search-label__button {
+.subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .booking__button:hover, .search .search-label .search-label__button:hover {
+.subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .booking__button:active, .search .search-label .search-label__button:active {
+.subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -802,17 +812,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .booking__button, .search .search-label .search-label__button {
+.subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .booking__button:hover, .search .search-label .search-label__button:hover {
+.subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .booking__button:active, .search .search-label .search-label__button:active {
+.subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -998,26 +1008,31 @@ img {
 .hotel {
   padding-top: 20px;
 }
-.hotel .hotel-info {
+
+.hotel-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 20px;
 }
-.hotel .hotel-wrapper {
+
+.hotel-wrapper {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.hotel .stars {
+
+.stars {
   flex-basis: 100%;
 }
-.hotel .stars__icon {
+
+.stars__icon {
   width: 10px;
   height: 10px;
   fill: chocolate;
 }
-.hotel .hotel-name {
+
+.hotel-name {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
@@ -1025,7 +1040,8 @@ img {
   margin-top: 4px;
   flex-basis: 70%;
 }
-.hotel .offer {
+
+.offer {
   color: #ffffff;
   padding: 3px 9px;
   font-weight: 600;
@@ -1034,13 +1050,15 @@ img {
   background: #EC1F46;
   border-radius: 3px;
 }
-.hotel .description {
+
+.description {
   padding: 4px 0;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
 }
-.hotel .rating {
+
+.rating {
   width: 65px;
   height: 45px;
   color: #ffffff;
@@ -1051,12 +1069,12 @@ img {
   flex-direction: column;
   justify-content: center;
 }
-.hotel .rating .rating__text {
+.rating .rating__text {
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
 }
-.hotel .rating .rating__counter {
+.rating .rating__counter {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
@@ -1321,17 +1339,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .search .search-label .search-label__button, .booking__button {
+.subscriber-label__button, .search-label__button, .booking__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .search .search-label .search-label__button:hover, .booking__button:hover {
+.subscriber-label__button:hover, .search-label__button:hover, .booking__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .search .search-label .search-label__button:active, .booking__button:active {
+.subscriber-label__button:active, .search-label__button:active, .booking__button:active {
   background: #333333;
 }
 
@@ -1407,17 +1425,17 @@ img {
   color: #EC1F46;
 }
 
-.subscriber-label__button, .search .search-label .search-label__button, .booking__button {
+.subscriber-label__button, .search-label__button, .booking__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.subscriber-label__button:hover, .search .search-label .search-label__button:hover, .booking__button:hover {
+.subscriber-label__button:hover, .search-label__button:hover, .booking__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.subscriber-label__button:active, .search .search-label .search-label__button:active, .booking__button:active {
+.subscriber-label__button:active, .search-label__button:active, .booking__button:active {
   background: #333333;
 }
 
@@ -1607,7 +1625,7 @@ img {
   background-image: linear-gradient(to top, rgba(10, 34, 61, 0.8), rgba(10, 34, 61, 0.8)), url("../../../hotel-booking/img/newsletter-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .newsletter-wrapper {
@@ -1726,17 +1744,446 @@ img {
   color: #EC1F46;
 }
 
-.search .search-label .search-label__button, .booking__button, .subscriber-label__button {
+.search-label__button, .booking__button, .subscriber-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.search .search-label .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
+.search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.search .search-label .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
+.search-label__button:active, .booking__button:active, .subscriber-label__button:active {
+  background: #333333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+.search-label__button, .booking__button, .subscriber-label__button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #EC1F46;
+}
+.search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
+  background: lightcoral;
+  transition: 0.3s;
+}
+.search-label__button:active, .booking__button:active, .subscriber-label__button:active {
+  background: #333333;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .slide {
+    width: 60%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .header .header-top {
+    padding: 30px 0 30px 0;
+  }
+
+  .logo-text {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .nav .nav-menu {
+    padding: 22px 0 22px 0;
+  }
+  .nav .nav-menu .nav-menu__item .nav-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hotel-grid {
+    flex-wrap: wrap;
+  }
+
+  .slide {
+    width: 100%;
+  }
+
+  .booking-map {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  .booking {
+    width: 46%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+
+  .nav, .search, .user {
+    display: none;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  .menu-button .menu-button__line {
+    width: 16px;
+    height: 1px;
+    background: #333333;
+  }
+
+  .hotel .hotel-info__text {
+    width: 100%;
+  }
+  .hotel .hotel-wrapper {
+    justify-content: space-between;
+  }
+  .hotel .stars {
+    flex-basis: auto;
+  }
+  .hotel .hotel-name {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+  .hotel .offer {
+    order: -1;
+  }
+  .hotel .hotel-info__rating {
+    display: none;
+  }
+
+  .grand-hilton-hotel {
+    height: 100%;
+  }
+
+  .swiper-slide {
+    height: auto;
+  }
+
+  .booking {
+    width: 70%;
+    padding: 20px;
+    margin-right: 5%;
+  }
+
+  .map {
+    width: 70%;
+    height: 100%;
+  }
+
+  .newsletter-wrapper {
+    width: 77%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .newsletter-title {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .logo-text {
+    font-size: 14px;
+  }
+
+  .booking-map {
+    flex-wrap: wrap;
+  }
+
+  .booking {
+    width: 100%;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .map {
+    width: 100%;
+    height: 213px;
+  }
+
+  .newsletter-title__subscriber {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .newsletter-title__text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .subscriber {
+    width: 95%;
+  }
+
+  .subscriber-label__input {
+    width: 100%;
+  }
+
+  .subscriber-label__input {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .subscriber-label__button {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+.slide {
+  width: 65.7%;
+}
+
+.swiper {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+.swiper:hover .slide-button {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.swiper-slide {
+  cursor: pointer;
+}
+.swiper-slide:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+  z-index: 10;
+  border-radius: 8px;
+}
+
+.grand-hilton-hotel {
+  width: 728px;
+  height: 450px;
+  border-radius: 8px;
+}
+
+.slide-button {
+  position: absolute;
+  padding: 0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  top: 50%;
+  background: transparent;
+  z-index: 99;
+  opacity: 0;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+
+.slide-button--prev {
+  left: 18px;
+}
+
+.slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.slide-button--next {
+  right: 18px;
+}
+
+.slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.booking-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+.search-label__button, .booking__button, .subscriber-label__button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #EC1F46;
+}
+.search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
+  background: lightcoral;
+  transition: 0.3s;
+}
+.search-label__button:active, .booking__button:active, .subscriber-label__button:active {
   background: #333333;
 }
 

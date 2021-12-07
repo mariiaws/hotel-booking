@@ -6,12 +6,14 @@
 @import "variables";
 //Настройки для отдельных блоков
 @import "blocks/header";
-//Хлебные крошки
+//Breadcrumb
 @import "blocks/breadcrumb";
-//Стили Отеля
+//Стили Hotel
 @import "blocks/hotel";
 //Стили Newsletter
 @import "blocks/newsletter";
+//Стили Reviewers
+@import "blocks/reviews";
 //Медиа запросы
 @import "media";
 

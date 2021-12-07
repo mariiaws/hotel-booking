@@ -8,130 +8,132 @@
 @import "../media";
 //Настройки для отдельных блоков
 
+.header {
+  background: #ffffff;
+
+}
+
 .logo-text {
   @extend %header-logo;
 }
 
-.header {
-  background: #ffffff;
 
-  .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 0 40px 0;
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 40px 0;
 
-  }
 }
-
 
 .search {
   flex-basis: 50%;
-
-  .search-label {
-    display: flex;
-    // position: relative; На данный момент не вижу смысла
-    overflow: hidden;
-    border-radius: 6px;
-    height: 40px;
-
-    .search-label__input {
-      width: 250px; //было 350px
-      //height: 100%; при отключении ничего не изменилось
-      padding: 12px 10px 13px 23px;
-      background: $secondary;
-      border: none;
-      font-size: 12px;
-      line-height: 15px;
-      color: $text-color;
-      outline: none;
-    }
-
-    .search-label__button {
-      @extend %button;
-      padding: 12px 25px;
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
-
-      //position: absolute; На данный момент не вижу смысла
-      /*
-      width: 65px;
-      height: 100%; ничего не изменилось
-      top: 0;
-      right: 0;
-      */
-
-      .icon-search {
-        width: 20px;
-        height: 20px;
-        fill: $light;
-      }
-    }
-
-  }
 }
 
+.search-label {
+  display: flex;
+  // position: relative; На данный момент не вижу смысла
+  overflow: hidden;
+  border-radius: 6px;
+  height: 40px;
+}
+
+.search-label__input {
+  width: 250px; //было 350px
+  //height: 100%; при отключении ничего не изменилось
+  padding: 12px 10px 13px 23px;
+  background: $secondary;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: $text-color;
+  outline: none;
+}
+
+
+.search-label__button {
+  @extend %button;
+  padding: 12px 25px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+
+  //position: absolute; На данный момент не вижу смысла
+  /*
+  width: 65px;
+  height: 100%; ничего не изменилось
+  top: 0;
+  right: 0;
+  */
+
+}
+
+.icon-search {
+  width: 20px;
+  height: 20px;
+  fill: $light;
+}
 
 .user {
   display: flex;
   align-items: center;
   text-decoration: none;
-
-  .user__avatar {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-  }
-
-  .user__name {
-    margin-left: 18px;
-    color: $text-color;
-    font-size: 14px;
-    line-height: 18px;
-  }
 }
+
+.user__avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.user__name {
+  margin-left: 18px;
+  color: $text-color;
+  font-size: 14px;
+  line-height: 18px;
+}
+
 
 .header-top__menu-button {
   display: none;
 }
 
+
 .nav {
   background-color: $dark;
+}
 
-  .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 31px 0 31px;
-    margin: 0;
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 0 31px;
+  margin: 0;
+}
 
-    .nav-menu__item {
-      list-style: none;
+.nav-menu__item {
+  list-style: none;
+}
 
-      .nav-menu__link {
-        text-decoration: none;
-        color: $light;
-        font-size: 14px;
-        line-height: 18px;
-        text-transform: uppercase;
-        font-weight: 700;
+.nav-menu__link {
+  text-decoration: none;
+  color: $light;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
 
-        &:after {
-          content: '';
-          display: block;
-          height: 1px;
-          background: $primary;
-          transition: 0.4s;
-          width: 0;
-        }
+  &:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: $primary;
+    transition: 0.4s;
+    width: 0;
+  }
 
-        &:hover {
-          &:after {
-            width: 100%;
-          }
-        }
-
-      }
+  &:hover {
+    &:after {
+      width: 100%;
     }
   }
 }
