@@ -7,3 +7,139 @@
 //Медиа запросы
 @import "../media";
 
+
+.reviews {
+  padding: 40px 0 100px 0;
+  max-width: 1300px;
+  margin: auto;
+}
+
+
+.reviews-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+
+.reviews-users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+
+}
+
+.reviews-hotel {
+  position: relative;
+  background-color: lightcoral;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 30px 0;
+  max-width: 700px;
+
+  &:before{
+    content: '';
+    background-image: url("../../../hotel-booking/img/quotation-marks.svg");
+    position: absolute;
+    width: 70px;
+    height: 47px;
+    background-repeat: no-repeat;
+    left: 20px;
+    top: 90px;
+  }
+
+  &:after{
+    content: '';
+    background-image: url("../../../hotel-booking/img/quotation-marks.svg");
+    position: absolute;
+    width: 70px;
+    height: 47px;
+    background-repeat: no-repeat;
+    right: 20px;
+    bottom: 0;
+    transform: rotate(180deg)
+  }
+
+}
+
+.reviews-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -45px;
+  margin-bottom: 32px;
+
+}
+
+.reviews-info__avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 5px;
+}
+
+.reviews-info__user {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: $primary;
+
+}
+
+.reviews-info__date {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: black;
+  margin: 5px 0;
+}
+
+.reviews-users-text {
+  padding: 0 30px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+
+.reviews-button {
+  position: absolute;
+  padding: 0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  top: 50%;
+  background: transparent;
+  z-index: 99;
+
+}
+
+.button-slide-prev {
+  left: 18px;
+}
+
+.reviews-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: red;
+
+}
+
+.button-slide-next {
+  right: 18px;
+}
+
+.reviews-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: red;
+
+}

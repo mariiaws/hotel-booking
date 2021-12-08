@@ -42,4 +42,10 @@
             </clipPath>
         </defs>
     </symbol>
+    <svg width="0" height="0" class="hidden">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 49" id="quotation-marks">
+            <path opacity="0.4"
+                  d="M65 0.795418L50 0.795419L40 19.8312L40 48.3848L70 48.3848L70 19.8312L55 19.8312L65 0.795418ZM25 0.795422L10 0.795423L5.00671e-06 19.8312L7.62939e-06 48.3848L30 48.3848L30 19.8312L15 19.8312L25 0.795422Z"></path>
+        </symbol>
+    </svg>
 </svg>

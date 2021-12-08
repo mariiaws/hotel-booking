@@ -5,8 +5,8 @@ const swiper = new Swiper('.swiper', {
 
     // Navigation arrows
     navigation: {
-        nextEl: '.slide-button--next, .reviews-slide-button--next',
-        prevEl: '.slide-button--prev, .reviews-slide-button--prev',
+        nextEl: '.slide-button--next, .button-slide-next',
+        prevEl: '.slide-button--prev, .button-slide-prev',
 
     },
 

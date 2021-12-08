@@ -24,14 +24,9 @@
   }
 
   .stars {
-    flex-basis: 100%;
+   @extend %stars;
   }
 
-  .stars__icon {
-    width: 10px;
-    height: 10px;
-    fill: chocolate;
-  }
 
   .hotel-name {
     font-weight: bold;
@@ -87,10 +82,6 @@
   }
 
 
-
-
-
-
 .hotel-grid {
   display: flex;
   align-items: stretch;
@@ -138,6 +129,7 @@
   width: 728px;
   height: 450px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 
@@ -302,9 +294,4 @@
   border-radius: 10px;
   overflow: hidden;
 }
-
-
-
-
-
 
