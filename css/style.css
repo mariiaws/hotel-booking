@@ -329,6 +329,16 @@ img {
   .booking {
     width: 46%;
   }
+
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -406,6 +416,17 @@ img {
   .newsletter-title {
     margin-bottom: 40px;
   }
+
+  .reviews-hotel {
+    max-width: 60%;
+  }
+  .reviews-hotel:after, .reviews-hotel:before {
+    display: none;
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -455,9 +476,37 @@ img {
   }
 
   .subscriber-label__button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
   }
 }
 .header {
@@ -922,6 +971,16 @@ img {
   .booking {
     width: 46%;
   }
+
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -999,6 +1058,17 @@ img {
   .newsletter-title {
     margin-bottom: 40px;
   }
+
+  .reviews-hotel {
+    max-width: 60%;
+  }
+  .reviews-hotel:after, .reviews-hotel:before {
+    display: none;
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -1048,9 +1118,37 @@ img {
   }
 
   .subscriber-label__button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
   }
 }
 .hotel {
@@ -1542,6 +1640,16 @@ img {
   .booking {
     width: 46%;
   }
+
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1619,6 +1727,17 @@ img {
   .newsletter-title {
     margin-bottom: 40px;
   }
+
+  .reviews-hotel {
+    max-width: 60%;
+  }
+  .reviews-hotel:after, .reviews-hotel:before {
+    display: none;
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -1668,9 +1787,37 @@ img {
   }
 
   .subscriber-label__button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
   }
 }
 .newsletter {
@@ -1963,6 +2110,16 @@ img {
   .booking {
     width: 46%;
   }
+
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -2040,6 +2197,17 @@ img {
   .newsletter-title {
     margin-bottom: 40px;
   }
+
+  .reviews-hotel {
+    max-width: 60%;
+  }
+  .reviews-hotel:after, .reviews-hotel:before {
+    display: none;
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -2089,9 +2257,37 @@ img {
   }
 
   .subscriber-label__button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
   }
 }
 .reviews {
@@ -2113,12 +2309,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .reviews-hotel {
   position: relative;
-  background-color: lightcoral;
+  background-color: #ffffff;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -2360,6 +2556,16 @@ img {
   .booking {
     width: 46%;
   }
+
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -2437,6 +2643,17 @@ img {
   .newsletter-title {
     margin-bottom: 40px;
   }
+
+  .reviews-hotel {
+    max-width: 60%;
+  }
+  .reviews-hotel:after, .reviews-hotel:before {
+    display: none;
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -2486,9 +2703,37 @@ img {
   }
 
   .subscriber-label__button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
   }
 }
 

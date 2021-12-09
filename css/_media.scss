@@ -64,6 +64,16 @@
     width: 46%;
   }
 
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
 
 }
 
@@ -126,7 +136,7 @@
   .grand-hilton-hotel {
     height: 100%;
   }
-  .hotel-grid__swiper-slide{
+  .hotel-grid__swiper-slide {
     height: auto;
   }
 
@@ -151,6 +161,18 @@
 
   .newsletter-title {
     margin-bottom: 40px;
+  }
+
+  .reviews-hotel {
+    max-width: 60%;
+
+    &:after, &:before {
+      display: none;
+    }
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
   }
 
 }
@@ -195,17 +217,49 @@
     width: 100%;
   }
 
-  .subscriber-label__input{
+  .subscriber-label__input {
     font-weight: 300;
     font-size: 14px;
     line-height: 18px;
   }
 
   .subscriber-label__button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
   }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
+  }
+
+
+
 
 
 }
