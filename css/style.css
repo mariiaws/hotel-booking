@@ -2836,28 +2836,8 @@ img {
   width: 100%;
   height: 60%;
   position: absolute;
-  top: 100%;
-  z-index: 2;
-  transition-property: top, opacity;
-  transition-duration: 0.4s;
-  transition-delay: 0s;
-}
-.activities-cards:focus:before, .activities-cards:hover:before {
   top: 40%;
-  border-radius: 6px;
-}
-.activities-cards:focus .activities-cards__text, .activities-cards:hover .activities-cards__text {
-  top: 0;
-  display: block;
-  opacity: 1;
-  transition-delay: 0.15s;
-  margin-bottom: 18px;
-}
-.activities-cards:focus .activities-cards__button, .activities-cards:focus .activities-cards__link, .activities-cards:hover .activities-cards__button, .activities-cards:hover .activities-cards__link {
-  cursor: pointer;
-  top: 0;
-  opacity: 1;
-  transition-delay: 0.25s;
+  z-index: 2;
 }
 
 .activities-cards__wrapper {
@@ -2866,6 +2846,9 @@ img {
   left: 26px;
   max-width: 150px;
   z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .activities-cards__image {
@@ -2881,29 +2864,18 @@ img {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  position: relative;
-  top: 100px;
-  transition-duration: 0.3s;
-}
-
-.activities-cards__link {
-  top: 100px;
-  position: relative;
 }
 
 .activities-cards__button {
+  text-decoration: none;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  color: #ffffff;
   padding: 7px 22px;
-  background-color: #EC1F46;
-  border: none;
   border-radius: 4px;
   position: relative;
-  top: 100px;
-  transition-duration: 0.3s;
+  top: 10px;
 }
 
 * {
