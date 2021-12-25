@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -70,17 +69,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
+.new-price__button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -90,95 +89,16 @@ img {
   fill: chocolate;
 }
 
-* {
-  box-sizing: border-box;
+.slide-button__arrow-next, .slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
 }
 
-@font-face {
-  font-family: "Luckiest Guy", cursive;
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Mulish", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Mulish", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Mulish", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Mulish", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-}
-body {
-  font-family: "Mulish", sans-serif;
-  background: #f5fafe;
-  color: #333333;
-}
-
-.container {
-  max-width: 1110px;
-  margin: auto;
-  border: 1px solid red;
-}
-
-img {
-  max-width: 100%;
-}
-
-.logo-text {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 24px;
-  line-height: 24px;
-  color: #333333;
-  text-decoration: none;
-}
-.logo-text .logo-text__tour {
-  color: #EC1F46;
-}
-
-.activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
-  background-color: #EC1F46;
-}
-.activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
-  background: lightcoral;
-  transition: 0.3s;
-}
-.activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
-  background: #333333;
-}
-
-.stars .stars__icon {
-  width: 10px;
-  height: 10px;
-  fill: chocolate;
+.map-icon, .telephone-icon, .home-icon, .human-icon, .search-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 * {
@@ -252,17 +172,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
+.new-price__button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -270,6 +190,121 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-next, .slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .telephone-icon, .home-icon, .human-icon, .search-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+.new-price__button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #EC1F46;
+}
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
+  background: lightcoral;
+  transition: 0.3s;
+}
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
+  background: #333333;
+}
+
+.stars .stars__icon {
+  width: 10px;
+  height: 10px;
+  fill: chocolate;
+}
+
+.slide-button__arrow-next, .slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .telephone-icon, .home-icon, .human-icon, .search-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -575,18 +610,6 @@ img {
   padding: 12px 25px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  /*
-  width: 65px;
-  height: 100%; ничего не изменилось
-  top: 0;
-  right: 0;
-  */
-}
-
-.icon-search {
-  width: 20px;
-  height: 20px;
-  fill: #ffffff;
 }
 
 .user {
@@ -719,17 +742,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
+.new-price__button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -737,6 +760,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-next, .slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .telephone-icon, .home-icon, .human-icon, .search-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .breadcrumb {
@@ -832,17 +867,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
+.new-price__button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -850,6 +885,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-next, .slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .telephone-icon, .home-icon, .human-icon, .search-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 * {
@@ -923,17 +970,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
+.new-price__button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .booking__button:hover, .search-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .booking__button:active, .search-label__button:active {
   background: #333333;
 }
 
@@ -941,6 +988,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-next, .slide-button__arrow-prev {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .telephone-icon, .home-icon, .human-icon, .search-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -1229,12 +1288,6 @@ img {
 .stars {
   flex-basis: 100%;
 }
-.stars .stars__icon {
-  width: 10px;
-  height: 10px;
-  fill: chocolate;
-}
-
 .hotel-name {
   font-weight: bold;
   font-size: 24px;
@@ -1346,20 +1399,8 @@ img {
   left: 18px;
 }
 
-.slide-button__arrow-prev {
-  width: 30px;
-  height: 30px;
-  fill: cornsilk;
-}
-
 .slide-button--next {
   right: 18px;
-}
-
-.slide-button__arrow-next {
-  width: 30px;
-  height: 30px;
-  fill: cornsilk;
 }
 
 .booking-map {
@@ -1413,12 +1454,6 @@ img {
   margin-bottom: 5px;
 }
 
-.human-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
-}
-
 .guest-text {
   margin-left: 5px;
 }
@@ -1427,11 +1462,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.person-room__room .home-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
 }
 
 .call-center {
@@ -1446,12 +1476,6 @@ img {
 .call-center__number {
   text-decoration: none;
   color: #ffffff;
-}
-
-.telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
 }
 
 .booking__button {
@@ -1542,17 +1566,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .subscriber-label__button, .search-label__button, .booking__button {
+.new-price__button, .activities-cards__button, .subscriber-label__button, .search-label__button, .booking__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .subscriber-label__button:hover, .search-label__button:hover, .booking__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .search-label__button:hover, .booking__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .subscriber-label__button:active, .search-label__button:active, .booking__button:active {
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .search-label__button:active, .booking__button:active {
   background: #333333;
 }
 
@@ -1560,6 +1584,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 * {
@@ -1633,17 +1669,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .subscriber-label__button, .search-label__button, .booking__button {
+.new-price__button, .activities-cards__button, .subscriber-label__button, .search-label__button, .booking__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .subscriber-label__button:hover, .search-label__button:hover, .booking__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .subscriber-label__button:hover, .search-label__button:hover, .booking__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .subscriber-label__button:active, .search-label__button:active, .booking__button:active {
+.new-price__button:active, .activities-cards__button:active, .subscriber-label__button:active, .search-label__button:active, .booking__button:active {
   background: #333333;
 }
 
@@ -1651,6 +1687,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -2046,17 +2094,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
+.new-price__button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
   background: #333333;
 }
 
@@ -2064,6 +2112,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 * {
@@ -2137,17 +2197,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
+.new-price__button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
   background: #333333;
 }
 
@@ -2155,6 +2215,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -2619,17 +2691,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
+.new-price__button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
   background: #333333;
 }
 
@@ -2637,6 +2709,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 * {
@@ -2710,17 +2794,17 @@ img {
   color: #EC1F46;
 }
 
-.activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
+.new-price__button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
+.new-price__button:hover, .activities-cards__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
+.new-price__button:active, .activities-cards__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active {
   background: #333333;
 }
 
@@ -2728,6 +2812,18 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -3142,17 +3238,17 @@ img {
   color: #EC1F46;
 }
 
-.search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button {
+.new-price__button, .search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button {
   color: #ffffff;
   border: none;
   cursor: pointer;
   background-color: #EC1F46;
 }
-.search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover, .activities-cards__button:hover {
+.new-price__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover, .activities-cards__button:hover {
   background: lightcoral;
   transition: 0.3s;
 }
-.search-label__button:active, .booking__button:active, .subscriber-label__button:active, .activities-cards__button:active {
+.new-price__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active, .activities-cards__button:active {
   background: #333333;
 }
 
@@ -3160,6 +3256,642 @@ img {
   width: 10px;
   height: 10px;
   fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+.new-price__button, .search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #EC1F46;
+}
+.new-price__button:hover, .search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover, .activities-cards__button:hover {
+  background: lightcoral;
+  transition: 0.3s;
+}
+.new-price__button:active, .search-label__button:active, .booking__button:active, .subscriber-label__button:active, .activities-cards__button:active {
+  background: #333333;
+}
+
+.stars .stars__icon {
+  width: 10px;
+  height: 10px;
+  fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.map-icon, .search-icon, .human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .hotel-grid__slide {
+    width: 60%;
+  }
+
+  .activities-cards {
+    width: 230px;
+    height: 230px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .header .header-top {
+    padding: 30px 0 30px 0;
+  }
+
+  .logo-text {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .nav .nav-menu {
+    padding: 22px 0 22px 0;
+  }
+  .nav .nav-menu .nav-menu__item .nav-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hotel-grid {
+    flex-wrap: wrap;
+  }
+
+  .hotel-grid__slide {
+    width: 100%;
+  }
+
+  .booking-map {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  .booking {
+    width: 46%;
+  }
+
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .activities-info {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .activities-cards {
+    width: 45%;
+    height: 230px;
+    margin-bottom: 15px;
+  }
+
+  .activities-cards__image {
+    min-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+
+  .nav, .search, .user {
+    display: none;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  .menu-button .menu-button__line {
+    width: 16px;
+    height: 1px;
+    background: #333333;
+  }
+
+  .hotel .hotel-info__text {
+    width: 100%;
+  }
+  .hotel .hotel-wrapper {
+    justify-content: space-between;
+  }
+  .hotel .stars {
+    flex-basis: auto;
+  }
+  .hotel .hotel-name {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+  .hotel .offer {
+    order: -1;
+  }
+  .hotel .hotel-info__rating {
+    display: none;
+  }
+
+  .grand-hilton-hotel {
+    height: 100%;
+  }
+
+  .hotel-grid__swiper-slide {
+    height: auto;
+  }
+
+  .booking {
+    width: 70%;
+    padding: 20px;
+    margin-right: 5%;
+  }
+
+  .map {
+    width: 70%;
+    height: 100%;
+  }
+
+  .newsletter-wrapper {
+    width: 77%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .newsletter-title {
+    margin-bottom: 40px;
+  }
+
+  .reviews-hotel {
+    max-width: 60%;
+  }
+  .reviews-hotel:after, .reviews-hotel:before {
+    display: none;
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 576px) {
+  .logo-text {
+    font-size: 14px;
+  }
+
+  .booking-map {
+    flex-wrap: wrap;
+  }
+
+  .booking {
+    width: 100%;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .map {
+    width: 100%;
+    height: 213px;
+  }
+
+  .newsletter-title__subscriber {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .newsletter-title__text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .subscriber {
+    width: 95%;
+  }
+
+  .subscriber-label__input {
+    width: 100%;
+  }
+
+  .subscriber-label__input {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .subscriber-label__button {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
+  }
+
+  .activities-info {
+    display: flex;
+  }
+
+  .activities-cards {
+    width: 100%;
+    height: 100%;
+  }
+
+  .activities-cards__image {
+    max-width: 100%;
+  }
+
+  .activities-cards__text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+.also-watching {
+  margin-bottom: 100px;
+}
+
+.also-watching__title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding: 40px 0 65px;
+}
+
+.watching-sliders {
+  display: grid;
+  justify-items: center;
+}
+
+.booking-card-first {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  grid-column-gap: 3%;
+  max-width: 1110px;
+  color: #ffffff;
+  background: #f5fafe;
+}
+
+.blue-haven {
+  background: #0A223D;
+  display: grid;
+  grid-template-columns: 0.6fr 1fr 0.01fr;
+  grid-column-gap: 2%;
+  border-radius: 8px;
+}
+
+.blue-haven-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.blue-haven-image-wrapper__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.blue-haven-text {
+  padding: 25px 0 0 0;
+}
+
+.blue-haven-text__text-title {
+  margin-top: 1%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.text-subtitle {
+  margin-top: 5%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+}
+
+.blue-haven-text__person-inform {
+  margin-top: 10%;
+}
+
+.location-text, .guest-text, .room-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.blue-haven-text__price {
+  margin-top: 21%;
+}
+
+.past-price {
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+}
+
+.new-price {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricetag {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.new-price__button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 10px 25px;
+}
+
+.booking-card {
+  background: #0A223D;
+  border-radius: 8px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.belle-more-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.booking-card__text {
+  padding: 20px;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.person-inform {
+  margin-top: 23px;
+}
+
+.guest {
+  margin: 10px 0 10px 0;
+}
+
+.booking-card-price {
+  margin-top: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+.search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button, .new-price__button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #EC1F46;
+}
+.search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover, .activities-cards__button:hover, .new-price__button:hover {
+  background: lightcoral;
+  transition: 0.3s;
+}
+.search-label__button:active, .booking__button:active, .subscriber-label__button:active, .activities-cards__button:active, .new-price__button:active {
+  background: #333333;
+}
+
+.stars .stars__icon {
+  width: 10px;
+  height: 10px;
+  fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.search-icon, .human-icon, .home-icon, .telephone-icon, .map-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {

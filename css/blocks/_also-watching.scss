@@ -1,0 +1,176 @@
+//Подключение базовых настроек
+@import "../settings";
+//Наследование
+@import "../inherit";
+//Переменные
+@import "../variables";
+//Медиа запросы
+@import "../media";
+
+.also-watching {
+  margin-bottom: 100px;
+}
+
+
+.also-watching__title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding: 40px 0 65px;
+}
+
+
+.watching-sliders {
+  display: grid;
+  justify-items: center;
+}
+
+
+.booking-card-first {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  grid-column-gap: 3%;
+  max-width: 1110px;
+  color: $light;
+  background: $secondary;
+}
+
+
+.blue-haven {
+  background: $dark;
+  display: grid;
+  grid-template-columns: 0.6fr 1fr 0.01fr;
+  grid-column-gap: 2%;
+  border-radius: 8px;
+}
+
+
+.blue-haven-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+
+.blue-haven-image-wrapper__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.blue-haven-text {
+  padding: 25px 0 0 0;
+
+}
+
+.blue-haven-text__text-title {
+  margin-top: 1%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.text-subtitle {
+  margin-top: 5%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+}
+
+.blue-haven-text__person-inform {
+  margin-top: 10%;
+}
+
+.map-icon {
+  @extend %multifunctional-icon;
+}
+
+.location-text, .guest-text, .room-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.blue-haven-text__price {
+  margin-top: 21%;
+}
+
+.past-price {
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+}
+
+
+.new-price {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricetag {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.new-price__button {
+  @extend %button;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 10px 25px;
+}
+
+//NEW BLOCK this page!!!
+
+.booking-card {
+  background: $dark;
+  border-radius: 8px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.belle-more-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+.booking-card__text {
+  padding: 20px;
+}
+
+.text-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.person-inform{
+  margin-top: 23px;
+}
+
+.guest{
+  margin: 10px 0 10px 0;
+}
+
+.booking-card-price{
+  margin-top: 25px;
+}

@@ -32,15 +32,13 @@
 
 .search-label {
   display: flex;
-  // position: relative; На данный момент не вижу смысла
   overflow: hidden;
   border-radius: 6px;
   height: 40px;
 }
 
 .search-label__input {
-  width: 250px; //было 350px
-  //height: 100%; при отключении ничего не изменилось
+  width: 250px;
   padding: 12px 10px 13px 23px;
   background: $secondary;
   border: none;
@@ -56,21 +54,10 @@
   padding: 12px 25px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-
-  //position: absolute; На данный момент не вижу смысла
-  /*
-  width: 65px;
-  height: 100%; ничего не изменилось
-  top: 0;
-  right: 0;
-  */
-
 }
 
-.icon-search {
-  width: 20px;
-  height: 20px;
-  fill: $light;
+.search-icon {
+  @extend%multifunctional-icon;
 }
 
 .user {

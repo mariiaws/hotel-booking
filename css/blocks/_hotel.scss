@@ -10,83 +10,81 @@
 .hotel {
   padding-top: 20px;
 }
-  .hotel-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
+
+.hotel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.hotel-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stars {
+  flex-basis: 100%;
+
+  .stars__icon {
+    @extend %stars;
   }
-
-  .hotel-wrapper {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .stars {
-   @extend %stars;
-      flex-basis: 100%;
-
-    .stars__icon {
-      width: 10px;
-      height: 10px;
-      fill: chocolate;
-    }
-  }
+}
 
 
-  .hotel-name {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-    color: $text-color;
-    margin-top: 4px;
-    flex-basis: 70%;
-  }
+.hotel-name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: $text-color;
+  margin-top: 4px;
+  flex-basis: 70%;
+}
 
 
-  .offer {
-    color: $light;
-    padding: 3px 9px;
+.offer {
+  color: $light;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: $primary;
+  border-radius: 3px;
+}
+
+.description {
+  padding: 4px 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+
+.rating {
+  width: 65px;
+  height: 45px;
+  color: $light;
+  align-items: center;
+  background: $primary;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .rating__text {
     font-weight: 600;
-    font-size: 10px;
-    line-height: 13px;
-    background: $primary;
-    border-radius: 3px;
+    font-size: 8px;
+    line-height: 10px;
   }
 
-  .description {
-    padding: 4px 0;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
+  .rating__counter {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
   }
 
-
-  .rating {
-    width: 65px;
-    height: 45px;
-    color: $light;
-    align-items: center;
-    background: $primary;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    .rating__text {
-      font-weight: 600;
-      font-size: 8px;
-      line-height: 10px;
-    }
-
-    .rating__counter {
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 18px;
-    }
-
-  }
+}
 
 
 .hotel-grid {
@@ -161,10 +159,7 @@
 }
 
 .slide-button__arrow-prev {
-  width: 30px;
-  height: 30px;
-  fill: cornsilk;
-
+  @extend %arrow-slider;
 }
 
 
@@ -173,13 +168,10 @@
 }
 
 .slide-button__arrow-next {
-  width: 30px;
-  height: 30px;
-  fill: cornsilk;
-
+  @extend %arrow-slider;
 }
 
-.booking-map{
+.booking-map {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -202,24 +194,23 @@
 }
 
 
-  .price__start {
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-  }
+.price__start {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
 
-  .price__pricetag {
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-  }
+.price__pricetag {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
 
-  .price__per-room {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-  }
-
+.price__per-room {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
 
 
 .person-room {
@@ -228,37 +219,31 @@
   line-height: 16px;
 }
 
-  .person-room__guest {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-  }
+.person-room__guest {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
 
-  .human-icon {
-    width: 14px;
-    height: 14px;
-    fill: $light;
-  }
+.human-icon {
+  @extend %multifunctional-icon;
+}
 
-  .guest-text {
-    margin-left: 5px;
-  }
+.guest-text {
+  margin-left: 5px;
+}
 
 
-  .person-room__room {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.person-room__room {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    .home-icon {
-      width: 14px;
-      height: 14px;
-      fill: $light;
-    }
+}
 
-  }
-
-
+.home-icon {
+  @extend %multifunctional-icon;
+}
 
 
 .call-center {
@@ -277,11 +262,8 @@
 }
 
 .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: $light;
+  @extend %multifunctional-icon;
 }
-
 
 
 .booking__button {
@@ -295,7 +277,7 @@
   border-radius: 4px;
 }
 
-.map{
+.map {
   width: 347px;
   height: 213px;
   border-radius: 10px;

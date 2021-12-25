@@ -48,12 +48,29 @@
   }
 }
 
-%stars{
-  .stars__icon {
-    width: 10px;
-    height: 10px;
-    fill: chocolate;
-  }
+%search-icon {
+  width: 20px;
+  height: 20px;
+  fill: $light;
 }
+
+%stars {
+  width: 10px;
+  height: 10px;
+  fill: chocolate;
+}
+
+%arrow-slider {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+%multifunctional-icon {
+  width: 14px;
+  height: 14px;
+  fill: $light;
+}
+
 
 
