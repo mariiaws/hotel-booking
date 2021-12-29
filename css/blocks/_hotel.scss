@@ -44,12 +44,7 @@
 
 
 .offer {
-  color: $light;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: $primary;
+  @extend %offers;
   border-radius: 3px;
 }
 
