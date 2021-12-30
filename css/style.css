@@ -412,6 +412,10 @@ img {
   .activities-cards__image {
     min-width: 100%;
   }
+
+  .also-watching__title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1134,6 +1138,10 @@ img {
   .activities-cards__image {
     min-width: 100%;
   }
+
+  .also-watching__title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1845,6 +1853,10 @@ img {
   .activities-cards__image {
     min-width: 100%;
   }
+
+  .also-watching__title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -2390,6 +2402,10 @@ img {
 
   .activities-cards__image {
     min-width: 100%;
+  }
+
+  .also-watching__title {
+    font-size: 24px;
   }
 }
 @media (max-width: 768px) {
@@ -3006,6 +3022,10 @@ img {
   .activities-cards__image {
     min-width: 100%;
   }
+
+  .also-watching__title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -3571,6 +3591,10 @@ img {
   .activities-cards__image {
     min-width: 100%;
   }
+
+  .also-watching__title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -3785,15 +3809,18 @@ img {
 .blue-haven {
   background: #0A223D;
   display: grid;
-  grid-template-columns: 0.6fr 1fr 0.01fr;
+  grid-template-columns: 0.6fr 1fr;
   grid-column-gap: 2%;
   border-radius: 8px;
+  padding-right: 10px;
+  grid-template-areas: "image text text" "image text text";
 }
 
 .blue-haven-image-wrapper {
   position: relative;
   width: 100%;
   height: 500px;
+  grid-area: image;
 }
 
 .blue-haven-image-wrapper__image {
@@ -3818,11 +3845,14 @@ img {
 }
 
 .blue-haven-text {
+  grid-area: text;
+}
+
+.blue-haven-text {
   padding: 25px 0 0 0;
 }
 
 .blue-haven-text__text-title {
-  margin-top: 1%;
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
@@ -3864,6 +3894,7 @@ img {
   margin-top: 1%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .pricetag {
@@ -3901,7 +3932,7 @@ img {
   border-top-right-radius: 8px;
 }
 
-.belle-mare__text {
+.belle-mare-text {
   padding: 20px;
 }
 
@@ -3911,7 +3942,7 @@ img {
   line-height: 23px;
 }
 
-.person-inform {
+.belle-mare-person-inform {
   margin-top: 23px;
 }
 
@@ -4136,6 +4167,10 @@ img {
 
   .activities-cards__image {
     min-width: 100%;
+  }
+
+  .also-watching__title {
+    font-size: 24px;
   }
 }
 @media (max-width: 768px) {

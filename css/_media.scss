@@ -6,6 +6,7 @@
 @import "variables";
 
 //Медиа запросы
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -15,7 +16,7 @@
     width: 60%;
   }
 
-  .activities-cards{
+  .activities-cards {
     width: 230px;
     height: 230px;
   }
@@ -80,17 +81,20 @@
     max-width: 80%;
   }
 
-  .activities-info{
+  .activities-info {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .activities-cards{
+  .activities-cards {
     width: 45%;
     height: 230px;
     margin-bottom: 15px;
   }
-  .activities-cards__image{
+  .activities-cards__image {
     min-width: 100%;
+  }
+  .also-watching__title {
+    font-size: 24px;
   }
 
 }
@@ -277,24 +281,23 @@
   }
 
 
-  .activities-info{
+  .activities-info {
     display: flex;
   }
 
-  .activities-cards{
+  .activities-cards {
     width: 100%;
     height: 100%;
   }
 
-  .activities-cards__image{
+  .activities-cards__image {
     max-width: 100%;
   }
 
-  .activities-cards__text{
+  .activities-cards__text {
     font-size: 18px;
     line-height: 23px;
   }
-
 
 
 }
