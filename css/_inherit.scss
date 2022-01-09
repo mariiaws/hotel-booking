@@ -66,10 +66,21 @@
   fill: cornsilk;
 }
 
-%multifunctional-icon {
+%top-icon {
   width: 14px;
   height: 14px;
   fill: $light;
+}
+
+%footer-icon{
+  width: 21px;
+  height: 21px;
+  fill: $footer-color;
+  cursor: pointer;
+  &:hover {
+    fill: $light;
+    transition: 0.3s;
+  }
 }
 
 %offers{

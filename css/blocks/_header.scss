@@ -57,7 +57,9 @@
 }
 
 .search-icon {
-  @extend%multifunctional-icon;
+  width: 16px;
+  height: 16px;
+  fill: $light;
 }
 
 .user {
