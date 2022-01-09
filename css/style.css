@@ -4107,7 +4107,7 @@ img {
   display: grid;
   grid-row-gap: 60px;
   grid-column-gap: 2%;
-  grid-template: "text text text text" "cont cont  form form" 300px/1fr 1fr 0.5fr 1fr;
+  grid-template: "text text text text" "cont cont  form form"/1fr 1fr 0.5fr 1fr;
 }
 
 .footer-text {
@@ -4178,7 +4178,7 @@ img {
 .contact {
   grid-area: cont;
   display: grid;
-  grid-template-rows: 0.1fr 0.1fr;
+  grid-template-rows: 1fr 1fr;
   grid-row-gap: 5%;
   align-items: flex-start;
 }
@@ -4200,7 +4200,7 @@ img {
 .address {
   display: grid;
   grid-template-columns: 0.08fr 1fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 150px;
 }
 
 .address-icon {
@@ -4235,6 +4235,7 @@ img {
 .form {
   grid-area: form;
   display: grid;
+  grid-row-gap: 8%;
 }
 
 .form-title {

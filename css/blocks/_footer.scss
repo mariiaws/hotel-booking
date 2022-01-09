@@ -19,7 +19,7 @@
   grid-column-gap: 2%;
   grid-template:
 "text text text text"
-"cont cont  form form" 300px
+"cont cont  form form"
 /1fr  1fr 0.5fr  1fr;
 
 }
@@ -105,7 +105,7 @@
 .contact {
   grid-area: cont;
   display: grid;
-  grid-template-rows: 0.10fr 0.10fr;
+  grid-template-rows: 1fr 1fr;
   grid-row-gap: 5%;
   align-items: flex-start;
 }
@@ -130,7 +130,7 @@
 .address {
   display: grid;
   grid-template-columns: 0.08fr 1fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 150px;
 }
 
 
@@ -167,6 +167,7 @@
 .form {
   grid-area: form;
   display: grid;
+  grid-row-gap: 8%;
 }
 
 
