@@ -87,7 +87,7 @@
   grid-area: social;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr;
-justify-items: end;
+  justify-items: start;
 
   .fb-icon, .yt-icon, .inst-icon {
     @extend %footer-icon;

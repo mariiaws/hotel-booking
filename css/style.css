@@ -4165,7 +4165,7 @@ img {
   grid-area: social;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr;
-  justify-items: end;
+  justify-items: start;
 }
 .social-link {
   text-decoration: none;
