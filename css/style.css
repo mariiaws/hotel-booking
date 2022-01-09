@@ -4114,7 +4114,7 @@ img {
   grid-area: text;
   display: grid;
   grid-column-gap: 2%;
-  grid-template: "logo categ addit legal" 220px ".. .. social .."/1fr 1fr 1fr 1fr;
+  grid-template: "logo categ addit legal" 220px ".. .. social .."/0.8fr 1fr 1fr 1fr;
 }
 
 .footer-logo-link {
