@@ -31,7 +31,7 @@
   grid-template:
 "logo categ addit legal" 220px
   ".. .. social .."
-/0.8fr 1fr 1fr 1fr;
+/1fr 1fr 1.5fr 1fr;
 }
 
 .footer-logo-link {
@@ -86,8 +86,12 @@
 .footer-social {
   grid-area: social;
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
-  justify-items: start;
+  grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr;
+  justify-items: flex-start;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
 
   .fb-icon, .yt-icon, .inst-icon {
     @extend %footer-icon;
@@ -104,86 +108,85 @@
 
 .contact {
   grid-area: cont;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-row-gap: 5%;
-  align-items: flex-start;
+  color: $footer-color;
+
+
 }
 
 .contact-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
-
-
 }
 
 .contact-subtitle {
-  font-weight: normal;
+  margin: 20px 0 20px 0;
+  font-weight: 400;
   font-size: 14px;
   line-height: 160%;
   color: $footer-color;
 }
 
-
 .address {
-  display: grid;
-  grid-template-columns: 0.08fr 1fr;
-  grid-template-rows: 150px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
 }
 
+.address-map {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+}
 
-.address-icon {
+.map-icon, .tel-icon, .e-mail-icon {
+  max-width: 24px;
+  max-height: 24px;
+  fill: $footer-color;
+  margin-right: 20px;
+}
+
+.address-tel {
+  margin: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.tel-text {
   display: grid;
   align-items: center;
-  grid-template-rows: 28% 50% 20%;
 }
 
-.address-text {
-  display: grid;
-  color: $footer-color;
+
+.address-e-mail {
+  display: flex;
   align-items: center;
-
 }
 
-.address-text__tel {
-  display: grid;
-  grid-row-gap: 6%;
-}
-
-.map-icon, .tel-icon {
-  width: 24px;
-  height: 24px;
-  fill: $footer-color;
-}
-
-.e-mail-icon {
-  width: 24px;
-  height: 24px;
-  fill: $footer-color;
-}
 
 .form {
   grid-area: form;
   display: grid;
-  grid-row-gap: 8%;
 }
-
 
 .form-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
+  margin-bottom: 34px;
 }
 
 .form-label {
   display: grid;
-  grid-gap: 5%;
+  grid-column-gap: 30px;
   grid-template:
-"name phone"
-"textarea textarea"
+"name phone" 65px
+"textarea textarea" 140px
 "send send"
 /0.5fr   0.5fr;
 }
