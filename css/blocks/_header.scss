@@ -110,19 +110,5 @@
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 700;
-
-  &:after {
-    content: '';
-    display: block;
-    height: 1px;
-    background: $primary;
-    transition: 0.4s;
-    width: 0;
-  }
-
-  &:hover {
-    &:after {
-      width: 100%;
-    }
-  }
+ @extend %header-underline;
 }

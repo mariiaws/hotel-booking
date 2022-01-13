@@ -12,22 +12,36 @@
   color: $text-color;
   text-decoration: none;
 
+  &:hover {
+    color: $black;
+  }
+
   .logo-text__tour {
     color: $primary;
   }
 }
 
-
-%footer-logo {
-  font-family: $font-logo;
-  font-size: 64px;
-  line-height: 64px;
-  color: $light;
-  text-decoration: none;
-
-  .logo-text__tour {
-    color: $primary;
+%header-underline {
+  &:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: $primary;
+    transition: 0.4s;
+    width: 0;
   }
+
+  &:hover {
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
+%top-icon {
+  width: 14px;
+  height: 14px;
+  fill: $light;
 }
 
 
@@ -54,6 +68,15 @@
   fill: $light;
 }
 
+%offers {
+  color: $light;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: $primary;
+}
+
 %stars {
   width: 10px;
   height: 10px;
@@ -66,29 +89,33 @@
   fill: cornsilk;
 }
 
-%top-icon {
-  width: 14px;
-  height: 14px;
-  fill: $light;
+%footer-logo {
+  font-family: $font-logo;
+  font-size: 64px;
+  line-height: 64px;
+  color: $light;
+  text-decoration: none;
+
+  &:hover {
+    color: $black;
+  }
 }
 
-%footer-icon{
+%footer-icon {
   width: 21px;
   height: 21px;
   fill: $footer-color;
   cursor: pointer;
+
   &:hover {
     fill: $light;
     transition: 0.3s;
   }
 }
 
-%offers{
-  color: $light;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: $primary;
+%footer-hover {
+  &:hover {
+    color: $focus-light;
+    transition: 0.3s;
+  }
 }
-

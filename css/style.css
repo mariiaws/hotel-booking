@@ -65,19 +65,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.telephone-icon, .home-icon, .human-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
@@ -94,6 +104,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -106,10 +125,15 @@ img {
   fill: cornsilk;
 }
 
-.telephone-icon, .home-icon, .human-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -123,13 +147,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 * {
@@ -199,19 +219,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.telephone-icon, .home-icon, .human-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
@@ -228,6 +258,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -240,10 +279,15 @@ img {
   fill: cornsilk;
 }
 
-.telephone-icon, .home-icon, .human-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -257,13 +301,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 * {
@@ -333,19 +373,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.telephone-icon, .home-icon, .human-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
@@ -362,6 +412,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -374,10 +433,15 @@ img {
   fill: cornsilk;
 }
 
-.telephone-icon, .home-icon, .human-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -391,13 +455,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -488,25 +548,56 @@ img {
   }
 
   .footer-wrapper {
-    grid-row-gap: 10%;
-    grid-template: "text text text text" "cont cont cont cont" "form form form form" "form form form form" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
   }
 
   .footer-text {
     grid-area: text;
     display: grid;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
-    grid-template: "logo social social" "categ addit legal"/1fr 1.5fr 1fr;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
     align-items: self-start;
     justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .footer-social {
     grid-template-columns: 4fr 1fr 1fr 1fr;
     justify-items: center;
-    grid-template-rows: 180px;
+    grid-template-rows: 100px;
     align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
   }
 }
 @media (max-width: 768px) {
@@ -596,6 +687,10 @@ img {
   .reviews-users-text {
     padding: 0 20px;
   }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -658,6 +753,10 @@ img {
     text-align: center;
   }
 
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
   .reviews-hotel {
     max-width: 80%;
   }
@@ -694,6 +793,49 @@ img {
   .activities-cards__text {
     font-size: 18px;
     line-height: 23px;
+  }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
   }
 }
 .header {
@@ -788,17 +930,6 @@ img {
   text-transform: uppercase;
   font-weight: 700;
 }
-.nav-menu__link:after {
-  content: "";
-  display: block;
-  height: 1px;
-  background: #EC1F46;
-  transition: 0.4s;
-  width: 0;
-}
-.nav-menu__link:hover:after {
-  width: 100%;
-}
 
 * {
   box-sizing: border-box;
@@ -867,19 +998,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.telephone-icon, .home-icon, .human-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
@@ -896,6 +1037,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -908,10 +1058,15 @@ img {
   fill: cornsilk;
 }
 
-.telephone-icon, .home-icon, .human-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -925,13 +1080,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 .breadcrumb {
@@ -1023,19 +1174,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.telephone-icon, .home-icon, .human-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
@@ -1052,6 +1213,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -1064,10 +1234,15 @@ img {
   fill: cornsilk;
 }
 
-.telephone-icon, .home-icon, .human-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -1081,13 +1256,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 * {
@@ -1157,19 +1328,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.telephone-icon, .home-icon, .human-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .booking__button, .search-label__button {
@@ -1186,6 +1367,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -1198,10 +1388,15 @@ img {
   fill: cornsilk;
 }
 
-.telephone-icon, .home-icon, .human-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -1215,13 +1410,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -1312,25 +1503,56 @@ img {
   }
 
   .footer-wrapper {
-    grid-row-gap: 10%;
-    grid-template: "text text text text" "cont cont cont cont" "form form form form" "form form form form" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
   }
 
   .footer-text {
     grid-area: text;
     display: grid;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
-    grid-template: "logo social social" "categ addit legal"/1fr 1.5fr 1fr;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
     align-items: self-start;
     justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .footer-social {
     grid-template-columns: 4fr 1fr 1fr 1fr;
     justify-items: center;
-    grid-template-rows: 180px;
+    grid-template-rows: 100px;
     align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
   }
 }
 @media (max-width: 768px) {
@@ -1420,6 +1642,10 @@ img {
   .reviews-users-text {
     padding: 0 20px;
   }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -1482,6 +1708,10 @@ img {
     text-align: center;
   }
 
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
   .reviews-hotel {
     max-width: 80%;
   }
@@ -1518,6 +1748,49 @@ img {
   .activities-cards__text {
     font-size: 18px;
     line-height: 23px;
+  }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
   }
 }
 .hotel {
@@ -1808,19 +2081,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .search-label__button, .booking__button {
@@ -1837,6 +2120,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -1849,10 +2141,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -1866,13 +2163,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 * {
@@ -1942,19 +2235,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .subscriber-label__button, .search-label__button, .booking__button {
@@ -1971,6 +2274,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -1983,10 +2295,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -2000,13 +2317,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -2097,25 +2410,56 @@ img {
   }
 
   .footer-wrapper {
-    grid-row-gap: 10%;
-    grid-template: "text text text text" "cont cont cont cont" "form form form form" "form form form form" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
   }
 
   .footer-text {
     grid-area: text;
     display: grid;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
-    grid-template: "logo social social" "categ addit legal"/1fr 1.5fr 1fr;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
     align-items: self-start;
     justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .footer-social {
     grid-template-columns: 4fr 1fr 1fr 1fr;
     justify-items: center;
-    grid-template-rows: 180px;
+    grid-template-rows: 100px;
     align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
   }
 }
 @media (max-width: 768px) {
@@ -2205,6 +2549,10 @@ img {
   .reviews-users-text {
     padding: 0 20px;
   }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -2267,6 +2615,10 @@ img {
     text-align: center;
   }
 
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
   .reviews-hotel {
     max-width: 80%;
   }
@@ -2303,6 +2655,49 @@ img {
   .activities-cards__text {
     font-size: 18px;
     line-height: 23px;
+  }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
   }
 }
 .newsletter {
@@ -2428,19 +2823,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
@@ -2457,6 +2862,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -2469,10 +2883,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -2486,13 +2905,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 * {
@@ -2562,19 +2977,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
@@ -2591,6 +3016,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -2603,10 +3037,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -2620,13 +3059,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -2717,25 +3152,56 @@ img {
   }
 
   .footer-wrapper {
-    grid-row-gap: 10%;
-    grid-template: "text text text text" "cont cont cont cont" "form form form form" "form form form form" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
   }
 
   .footer-text {
     grid-area: text;
     display: grid;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
-    grid-template: "logo social social" "categ addit legal"/1fr 1.5fr 1fr;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
     align-items: self-start;
     justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .footer-social {
     grid-template-columns: 4fr 1fr 1fr 1fr;
     justify-items: center;
-    grid-template-rows: 180px;
+    grid-template-rows: 100px;
     align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
   }
 }
 @media (max-width: 768px) {
@@ -2825,6 +3291,10 @@ img {
   .reviews-users-text {
     padding: 0 20px;
   }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -2887,6 +3357,10 @@ img {
     text-align: center;
   }
 
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
   .reviews-hotel {
     max-width: 80%;
   }
@@ -2923,6 +3397,49 @@ img {
   .activities-cards__text {
     font-size: 18px;
     line-height: 23px;
+  }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
   }
 }
 .reviews {
@@ -3117,19 +3634,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
@@ -3146,6 +3673,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -3158,10 +3694,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -3175,13 +3716,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 * {
@@ -3251,19 +3788,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .activities-cards__button, .search-label__button, .booking__button, .subscriber-label__button {
@@ -3280,6 +3827,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -3292,10 +3848,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -3309,13 +3870,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -3406,25 +3963,56 @@ img {
   }
 
   .footer-wrapper {
-    grid-row-gap: 10%;
-    grid-template: "text text text text" "cont cont cont cont" "form form form form" "form form form form" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
   }
 
   .footer-text {
     grid-area: text;
     display: grid;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
-    grid-template: "logo social social" "categ addit legal"/1fr 1.5fr 1fr;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
     align-items: self-start;
     justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .footer-social {
     grid-template-columns: 4fr 1fr 1fr 1fr;
     justify-items: center;
-    grid-template-rows: 180px;
+    grid-template-rows: 100px;
     align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
   }
 }
 @media (max-width: 768px) {
@@ -3514,6 +4102,10 @@ img {
   .reviews-users-text {
     padding: 0 20px;
   }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -3576,6 +4168,10 @@ img {
     text-align: center;
   }
 
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
   .reviews-hotel {
     max-width: 80%;
   }
@@ -3612,6 +4208,49 @@ img {
   .activities-cards__text {
     font-size: 18px;
     line-height: 23px;
+  }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
   }
 }
 .activities {
@@ -3756,19 +4395,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button {
@@ -3785,6 +4434,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -3797,10 +4455,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -3814,13 +4477,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 * {
@@ -3890,19 +4549,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .send-button, .search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button {
@@ -3919,6 +4588,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -3931,10 +4609,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -3948,13 +4631,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -4045,25 +4724,56 @@ img {
   }
 
   .footer-wrapper {
-    grid-row-gap: 10%;
-    grid-template: "text text text text" "cont cont cont cont" "form form form form" "form form form form" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
   }
 
   .footer-text {
     grid-area: text;
     display: grid;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
-    grid-template: "logo social social" "categ addit legal"/1fr 1.5fr 1fr;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
     align-items: self-start;
     justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .footer-social {
     grid-template-columns: 4fr 1fr 1fr 1fr;
     justify-items: center;
-    grid-template-rows: 180px;
+    grid-template-rows: 100px;
     align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
   }
 }
 @media (max-width: 768px) {
@@ -4153,6 +4863,10 @@ img {
   .reviews-users-text {
     padding: 0 20px;
   }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -4215,6 +4929,10 @@ img {
     text-align: center;
   }
 
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
   .reviews-hotel {
     max-width: 80%;
   }
@@ -4252,6 +4970,49 @@ img {
     font-size: 18px;
     line-height: 23px;
   }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
+  }
 }
 .footer {
   background: #0A223D;
@@ -4263,7 +5024,7 @@ img {
   display: grid;
   grid-row-gap: 60px;
   grid-column-gap: 2%;
-  grid-template: "text text text text" "cont cont  form form"/1fr 1fr 0.5fr 1fr;
+  grid-template: "text text text text" "cont cont  form form"/1fr 0.5fr 0.5fr 1fr;
 }
 
 .footer-text {
@@ -4345,6 +5106,7 @@ img {
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .contact-subtitle {
@@ -4390,6 +5152,11 @@ img {
 .address-e-mail {
   display: flex;
   align-items: center;
+}
+
+.e-mail-text {
+  text-decoration: none;
+  color: #BDBDBD;
 }
 
 .form {
@@ -4463,19 +5230,23 @@ img {
 
 .footer-footer {
   padding: 100px 0 50px 0;
-  grid-area: footer;
-  display: grid;
-  grid-template-columns: 1.7fr 1fr;
-  justify-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .footer-legal {
   display: grid;
-  grid-template-columns: 1fr 2fr 2.5fr;
+  grid-template-columns: 1fr 2fr 8fr;
   grid-column-gap: 5%;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
+}
+
+.disclaimer, .conditions, .cancellation {
+  text-decoration: none;
+  color: #BDBDBD;
 }
 
 .icon-pay {
@@ -4550,19 +5321,29 @@ img {
   color: #333333;
   text-decoration: none;
 }
+.logo-text:hover {
+  color: #000000;
+}
 .logo-text .logo-text__tour {
   color: #EC1F46;
 }
 
-.footer-logo-link {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 64px;
-  line-height: 64px;
-  color: #ffffff;
-  text-decoration: none;
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
 }
-.footer-logo-link .logo-text__tour {
-  color: #EC1F46;
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button, .send-button {
@@ -4579,6 +5360,15 @@ img {
   background: #333333;
 }
 
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
 .stars .stars__icon {
   width: 10px;
   height: 10px;
@@ -4591,10 +5381,15 @@ img {
   fill: cornsilk;
 }
 
-.human-icon, .home-icon, .telephone-icon {
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
 }
 
 .footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
@@ -4608,13 +5403,9 @@ img {
   transition: 0.3s;
 }
 
-.offer {
-  color: #ffffff;
-  padding: 3px 9px;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 13px;
-  background: #EC1F46;
+.footer__link:hover, .disclaimer:hover, .conditions:hover, .cancellation:hover {
+  color: lightcoral;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -4705,25 +5496,56 @@ img {
   }
 
   .footer-wrapper {
-    grid-row-gap: 10%;
-    grid-template: "text text text text" "cont cont cont cont" "form form form form" "form form form form" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
   }
 
   .footer-text {
     grid-area: text;
     display: grid;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
-    grid-template: "logo social social" "categ addit legal"/1fr 1.5fr 1fr;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
     align-items: self-start;
     justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .footer-social {
     grid-template-columns: 4fr 1fr 1fr 1fr;
     justify-items: center;
-    grid-template-rows: 180px;
+    grid-template-rows: 100px;
     align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
   }
 }
 @media (max-width: 768px) {
@@ -4813,6 +5635,10 @@ img {
   .reviews-users-text {
     padding: 0 20px;
   }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
 }
 @media (max-width: 576px) {
   .logo-text {
@@ -4875,6 +5701,10 @@ img {
     text-align: center;
   }
 
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
   .reviews-hotel {
     max-width: 80%;
   }
@@ -4911,6 +5741,49 @@ img {
   .activities-cards__text {
     font-size: 18px;
     line-height: 23px;
+  }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
   }
 }
 

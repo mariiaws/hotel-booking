@@ -20,7 +20,7 @@
   grid-template:
 "text text text text"
 "cont cont  form form"
-/1fr  1fr 0.5fr  1fr;
+/1fr  0.5fr 0.5fr  1fr;
 
 }
 
@@ -76,6 +76,7 @@
 .footer__link {
   text-decoration: none;
   color: $footer-color;
+  @extend %footer-hover;
 }
 
 
@@ -118,6 +119,7 @@
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
+  color: $light;
 }
 
 .contact-subtitle {
@@ -165,6 +167,13 @@
 .address-e-mail {
   display: flex;
   align-items: center;
+
+}
+
+
+.e-mail-text {
+  text-decoration: none;
+  color: $footer-color;
 }
 
 
@@ -245,21 +254,25 @@
 
 .footer-footer {
   padding: 100px 0 50px 0;
-  grid-area: footer;
-  display: grid;
-  grid-template-columns: 1.7fr 1fr;
-  justify-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .footer-legal {
   display: grid;
-  grid-template-columns: 1fr 2fr 2.5fr;
+  grid-template-columns: 1fr 2fr 8fr;
   grid-column-gap: 5%;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
 }
 
+.disclaimer, .conditions, .cancellation {
+  text-decoration: none;
+  color: $footer-color;
+  @extend %footer-hover;
+}
 
 .icon-pay {
   width: 136px;
