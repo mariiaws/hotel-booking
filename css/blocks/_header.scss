@@ -9,7 +9,7 @@
 //Настройки для отдельных блоков
 
 .header {
-  background: #ffffff;
+  background: $light;
 
 }
 
@@ -23,6 +23,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px 0 40px 0;
+  background: $light;
 
 }
 
@@ -68,6 +69,7 @@
   text-decoration: none;
 }
 
+
 .user__avatar {
   border-radius: 50%;
   width: 40px;
@@ -101,6 +103,10 @@
 
 .nav-menu__item {
   list-style: none;
+}
+
+.nav-menu__item--mobile_hidden{
+  display: none;
 }
 
 .nav-menu__link {

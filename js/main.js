@@ -13,7 +13,6 @@ const swiper = new Swiper('.hotel-grid__swiper', {
 });
 
 
-
 new Swiper('.reviews-swiper', {
 // Optional parameters
     direction: 'horizontal',
@@ -31,9 +30,9 @@ new Swiper('.reviews-swiper', {
 
 new Swiper('.watching-swiper', {
 
- /*   //Automatic scrolling
-    speed: 2000,
-    autoplay: true,*/
+    /*   //Automatic scrolling For _also-watching
+       speed: 2000,
+       autoplay: true,*/
 
 
 // Optional parameters
@@ -48,5 +47,23 @@ new Swiper('.watching-swiper', {
     },
 
 });
+
+
+let menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+    document
+        .querySelector(".nav")
+        .classList.toggle("nav--visible");
+    document
+        .querySelector(".menu-button")
+        .classList.toggle("change");
+
+});
+
+
+/*Её надо переделать, чтобы без отсылки к атрибуту, а к class или id*/
+/*Прокрутки нет на самой меню, позади меню прокрутка должна быть отключена*/
+
+
 
 
