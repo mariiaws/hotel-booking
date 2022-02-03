@@ -222,10 +222,10 @@
             <div class="newsletter-title__subscriber">subscribe to our</div>
             <div class="newsletter-title__text">Newsletter</div>
         </div>
-        <form action="#" class="subscriber" method="post">
+        <form action="send.php" class="subscriber" method="post">
             <label class="subscriber-label" for="email">
                 <input type="email" class="subscriber-label__input" placeholder="Your email address" required
-                       autocomplete="on">
+                       autocomplete="on" name="email">
                 <button class="subscriber-label__button">Send</button>
             </label>
         </form>
@@ -529,16 +529,16 @@
 
             <div class="form">
                 <div class="form-title">Send us a message</div>
-                <form action="#" method="post" class="form-message">
+                <form action="send.php" method="post" class="form-message">
                     <label for="user-name" class="form-label" id="user-name">
                         <input type="text" class="form-label__input-name" placeholder="Your Full Name*" required
-                               maxlength="40">
+                               maxlength="100" name="name">
                         <input type="tel" class="form-label__input-phone" placeholder="Phone Number*" required
-                               maxlength="11"
+                               maxlength="13" name="telephone"
                                pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
                         <!--resize:none;-->
                         <textarea class="form-textarea" placeholder="Message"
-                                  maxlength="100"></textarea>
+                                  maxlength="100" name="message"></textarea>
                         <div class="send">
                             <button class="send-button">Send</button>
                             <span class="send-fields">* Required Fields</span>
