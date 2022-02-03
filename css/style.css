@@ -2877,7 +2877,7 @@ img {
   margin-top: 70px;
   border: 2px solid limegreen;
   padding: 98px 0;
-  background-image: linear-gradient(to top, rgba(10, 34, 61, 0.8), rgba(10, 34, 61, 0.8)), url("../../../hotel-booking/img/newsletter-bg.jpeg");
+  background-image: linear-gradient(to top, rgba(10, 34, 61, 0.8), rgba(10, 34, 61, 0.8)), url("../../../img/newsletter-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5516,7 +5516,7 @@ img {
 .form-label {
   display: grid;
   grid-column-gap: 30px;
-  grid-template: "name phone" 65px "textarea textarea" 140px "send send"/0.5fr 0.5fr;
+  grid-template: "name phone" 65px "textarea textarea" 230px "send send"/0.5fr 0.5fr;
 }
 
 .form-label__input-name {
@@ -5546,7 +5546,7 @@ img {
   grid-area: textarea;
   resize: none;
   width: 100%;
-  height: 120px;
+  height: 210px;
   outline: 0;
 }
 

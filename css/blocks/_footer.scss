@@ -195,7 +195,7 @@
   grid-column-gap: 30px;
   grid-template:
 "name phone" 65px
-"textarea textarea" 140px
+"textarea textarea" 230px
 "send send"
 /0.5fr   0.5fr;
 }
@@ -228,7 +228,7 @@
   grid-area: textarea;
   resize: none;
   width: 100%;
-  height: 120px;
+  height: 210px;
   outline: 0;
 }
 
