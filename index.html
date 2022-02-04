@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache">
     <link rel="stylesheet" href="css/normalize.css"><!--Чтобы всё было чётко пиксель в пиксель-->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -32,7 +33,7 @@
                 <img src="img/photo-user.jpeg" class="user__avatar" alt="Photo user">
                 <span class="user__name">Nathan</span>
             </a>
-            <div class="menu-button header-top__menu-button" >
+            <div class="menu-button header-top__menu-button">
                 <div class="menu-button__line__change"></div>
                 <div class="menu-button__line__hidden"></div>
                 <div class="menu-button__line__change-double"></div>
@@ -559,6 +560,37 @@
         </div>
     </div>
 </footer>
+
+<div class="modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__dialog">
+        <div class="modal__close">
+            <svg class="close">
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </div>
+        <div class="modal-form">
+            <div class="modal-title">Booking</div>
+            <form action="send.php" method="post" class="modal-message">
+                    <input type="text" class="modal-label__input-name" placeholder="Your Full Name*" required
+                           maxlength="30" name="name">
+                    <input type="tel" class="modal-label__input-phone" placeholder="Phone Number*" required
+                           maxlength="13" name="telephone"
+                           pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+                    <input type="email" class="modal-label__input-email" placeholder="Email*" required
+                           maxlength="30" name="name">
+
+                    <!--resize:none;-->
+                    <textarea class="modal-textarea" placeholder="Message"
+                              maxlength="100" name="message"></textarea>
+                    <div class="send">
+                        <button class="send-button">Send</button>
+                        <span class="send-fields">* Required Fields</span>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 </body>
 <script src="js/swiper-bundle.min.js"></script>

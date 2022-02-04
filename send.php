@@ -34,13 +34,13 @@ try {
     // Настройки вашей почты
     $mail->Host = 'smtp.yandex.ru'; // SMTP сервера вашей почты
     $mail->Username = 'georgylimb@yandex.ru'; // Логин на почте
-    $mail->Password = 'Vfhbz123'; // Пароль на почте
+    $mail->Password = '*****'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
-    $mail->setFrom('georgylimb@yandex.ru', 'Мария Постнова'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('mail@yandex.ru', 'Name and Last name'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('wooglay@gmail.com'); /*Может быть несколько почтовых адресов*/
+    $mail->addAddress('second mail'); /*Может быть несколько почтовых адресов*/
 
 
 // Отправка сообщения

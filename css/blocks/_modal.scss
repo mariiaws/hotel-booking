@@ -1,0 +1,67 @@
+//Подключение базовых настроек
+@import "../settings";
+//Наследование
+@import "../inherit";
+//Переменные
+@import "../variables";
+//Медиа запросы
+@import "../media";
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 12;
+  background: $background-modal;
+}
+
+.modal__dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 30px 90px;
+  z-index: 13;
+  max-width: 480px;
+  background: $dark;
+  border-radius: 8px;
+transform: translate(-50%, -50%);
+}
+
+.modal__close {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  cursor: pointer;
+  .close {
+    @extend %close;
+  }
+}
+
+.modal-form{
+  display: grid;
+  justify-items: center;
+}
+.modal-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: $light;
+}
+
+
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email {
+  @extend %form-input;
+  margin-top: 20px;
+}
+
+.modal-textarea {
+  @extend %textarea;
+  width: 100%;
+  height: 125px;
+  margin: 20px 0 20px 0;
+}
+

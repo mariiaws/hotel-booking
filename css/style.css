@@ -147,9 +147,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 * {
@@ -301,9 +324,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 * {
@@ -455,9 +501,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -1141,9 +1210,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 .breadcrumb {
@@ -1317,9 +1409,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 * {
@@ -1471,9 +1586,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -2280,9 +2418,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 * {
@@ -2434,9 +2595,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -3078,9 +3262,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 * {
@@ -3232,9 +3439,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -3945,9 +4175,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 * {
@@ -4099,9 +4352,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -4762,9 +5038,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 * {
@@ -4916,9 +5215,32 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-phone, .form-label__input-name {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .disclaimer:hover, .conditions:hover, .cancellation:hover, .footer__link:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -5506,7 +5828,7 @@ img {
 }
 
 .form-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
@@ -5520,34 +5842,17 @@ img {
 }
 
 .form-label__input-name {
-  padding: 18px 23px;
-  border: none;
-  border-radius: 4px;
   grid-area: name;
-  width: 100%;
-  height: 50px;
-  outline: 0;
 }
 
 .form-label__input-phone {
   grid-area: phone;
-  padding: 18px 23px;
-  border: none;
-  border-radius: 4px;
-  width: 100%;
-  height: 50px;
-  outline: 0;
 }
 
 .form-textarea {
-  padding: 18px 20px;
-  border: 0;
-  border-radius: 4px;
   grid-area: textarea;
-  resize: none;
   width: 100%;
   height: 210px;
-  outline: 0;
 }
 
 .send {
@@ -5744,9 +6049,872 @@ img {
   transition: 0.3s;
 }
 
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-name, .form-label__input-phone {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
 .footer__link:hover, .disclaimer:hover, .conditions:hover, .cancellation:hover {
   color: lightcoral;
   transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text:hover {
+  color: #000000;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
+}
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+.search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button, .send-button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #EC1F46;
+}
+.search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover, .activities-cards__button:hover, .send-button:hover {
+  background: lightcoral;
+  transition: 0.3s;
+}
+.search-label__button:active, .booking__button:active, .subscriber-label__button:active, .activities-cards__button:active, .send-button:active {
+  background: #333333;
+}
+
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
+.stars .stars__icon {
+  width: 10px;
+  height: 10px;
+  fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
+}
+
+.footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
+  width: 21px;
+  height: 21px;
+  fill: #BDBDBD;
+  cursor: pointer;
+}
+.footer-social .fb-icon:hover, .footer-social .yt-icon:hover, .footer-social .inst-icon:hover {
+  fill: #ffffff;
+  transition: 0.3s;
+}
+
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email, .form-label__input-name, .form-label__input-phone {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.modal-textarea, .form-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
+.footer__link:hover, .disclaimer:hover, .conditions:hover, .cancellation:hover {
+  color: lightcoral;
+  transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .hotel-grid__slide {
+    width: 60%;
+  }
+
+  .activities-cards {
+    width: 230px;
+    height: 230px;
+  }
+
+  .footer-wrapper {
+    grid-template: "text text text text" "cont cont  form form"/1fr 1fr 0.4fr 1fr;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .header .header-top {
+    padding: 30px 0 30px 0;
+  }
+
+  .logo-text {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .nav .nav-menu {
+    padding: 22px 0 22px 0;
+  }
+  .nav .nav-menu .nav-menu__item .nav-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hotel-grid {
+    flex-wrap: wrap;
+  }
+
+  .hotel-grid__slide {
+    width: 100%;
+  }
+
+  .booking-map {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  .booking {
+    width: 46%;
+  }
+
+  .reviews-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .activities-info {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .activities-cards {
+    width: 45%;
+    height: 230px;
+    margin-bottom: 15px;
+  }
+
+  .activities-cards__image {
+    min-width: 100%;
+  }
+
+  .also-watching__title {
+    font-size: 24px;
+  }
+
+  .footer-wrapper {
+    padding-top: 40px;
+    grid-row-gap: 0;
+    grid-template: "text text text text" "text text text text" "cont cont cont cont" "form form form form" "form form form form"/1fr 1fr 0.5fr 1fr;
+  }
+
+  .footer-text {
+    grid-area: text;
+    display: grid;
+    grid-column-gap: 5%;
+    grid-row-gap: 0;
+    grid-template: "logo social social" 0.8fr "categ addit legal" 1fr/1fr 1.5fr 1fr;
+    align-items: self-start;
+    justify-items: flex-start;
+  }
+
+  .footer-logo-link {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .footer-social {
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-rows: 100px;
+    align-items: center;
+  }
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .form {
+    margin-top: 60px;
+  }
+
+  .form-label {
+    grid-template: "name phone" 65px "textarea textarea" 170px "send send"/0.5fr 0.5fr;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  .footer-footer {
+    justify-content: space-between;
+  }
+
+  .footer-legal {
+    grid-template-columns: 1fr 2fr 2.5fr;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 78px;
+  }
+
+  .header--mobile--fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 12;
+  }
+
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+
+  .nav, .search, .user {
+    display: none;
+  }
+
+  .nav--visible {
+    display: block;
+    position: fixed;
+    top: 78px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+  }
+  .nav--visible .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav--visible .nav-menu__item {
+    margin-bottom: 20px;
+  }
+
+  .nav-menu__item--mobile--hidden {
+    display: flex;
+  }
+
+  .user--mobile--visible {
+    text-decoration: none;
+    display: grid;
+  }
+  .user--mobile--visible .user__name--light {
+    margin-left: 0;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+
+  .search-label__input--width {
+    width: 100%;
+  }
+
+  .menu-button {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .menu-button__line__change, .menu-button__line__hidden, .menu-button__line__change-double {
+    width: 23px;
+    height: 1px;
+    margin: 6px 0;
+    background: #333333;
+    transition: 0.4s;
+  }
+
+  .change .menu-button__line__change {
+    transform: rotate(-45deg) translate(-3px, 6px);
+  }
+
+  .change .menu-button__line__hidden {
+    opacity: 0;
+  }
+
+  .change .menu-button__line__change-double {
+    transform: rotate(45deg) translate(-4px, -8px);
+  }
+
+  .hotel .hotel-info__text {
+    width: 100%;
+  }
+  .hotel .hotel-wrapper {
+    justify-content: space-between;
+  }
+  .hotel .stars {
+    flex-basis: auto;
+  }
+  .hotel .hotel-name {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+  .hotel .offer {
+    order: -1;
+  }
+  .hotel .hotel-info__rating {
+    display: none;
+  }
+
+  .grand-hilton-hotel {
+    height: 100%;
+  }
+
+  .hotel-grid__swiper-slide {
+    height: auto;
+  }
+
+  .booking {
+    width: 70%;
+    padding: 20px;
+    margin-right: 5%;
+  }
+
+  .map {
+    width: 70%;
+    height: 100%;
+  }
+
+  .newsletter-wrapper {
+    width: 77%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .newsletter-title {
+    margin-bottom: 40px;
+  }
+
+  .reviews-hotel {
+    max-width: 60%;
+  }
+  .reviews-hotel:after, .reviews-hotel:before {
+    display: none;
+  }
+
+  .reviews-users-text {
+    padding: 0 20px;
+  }
+
+  .footer-text {
+    grid-template: "logo social" 150px "categ addit" 310px "legal legal" 1fr/1fr 1.5fr;
+  }
+}
+@media (max-width: 576px) {
+  .logo-text {
+    font-size: 14px;
+  }
+
+  .booking-map {
+    flex-wrap: wrap;
+  }
+
+  .booking {
+    width: 100%;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .map {
+    width: 100%;
+    height: 213px;
+  }
+
+  .newsletter-title__subscriber {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .newsletter-title__text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .subscriber {
+    width: 95%;
+  }
+
+  .subscriber-label__input {
+    width: 100%;
+  }
+
+  .subscriber-label__input {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .subscriber-label__button {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .reviews-title {
+    max-width: 92%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+
+  .reviews-hotel {
+    max-width: 80%;
+  }
+
+  .reviews-button {
+    top: 90px;
+  }
+
+  .button-slide-prev {
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+
+  .button-slide-next {
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-right: -65px;
+  }
+
+  .activities-info {
+    display: flex;
+  }
+
+  .activities-cards {
+    width: 100%;
+    height: 100%;
+  }
+
+  .activities-cards__image {
+    max-width: 100%;
+  }
+
+  .activities-cards__text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .footer-text {
+    align-items: center;
+    grid-template: "logo logo" 180px "social social" "categ categ" 310px "addit addit" 290px "legal legal" 1fr/1fr 1.5fr;
+  }
+
+  .footer-social {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .social-link {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-legal {
+    grid-column-gap: 2%;
+    grid-template-columns: 1fr 1.8fr 2fr;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .form-label {
+    grid-template: "name name" 65px "phone phone" 65px "textarea textarea" 170px "send send" 90px/0.5fr 0.5fr;
+  }
+
+  .send {
+    align-items: self-start;
+    flex-direction: column-reverse;
+  }
+}
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 12;
+  background: rgba(0, 143, 223, 0.39);
+}
+
+.modal__dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 30px 90px;
+  z-index: 13;
+  max-width: 480px;
+  background: #0A223D;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+}
+
+.modal__close {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  cursor: pointer;
+}
+.modal-form {
+  display: grid;
+  justify-items: center;
+}
+
+.modal-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-label__input-name, .modal-label__input-phone, .modal-label__input-email {
+  margin-top: 20px;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 125px;
+  margin: 20px 0 20px 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f5fafe;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.logo-text:hover {
+  color: #000000;
+}
+.logo-text .logo-text__tour {
+  color: #EC1F46;
+}
+
+.nav-menu__link:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #EC1F46;
+  transition: 0.4s;
+  width: 0;
+}
+.nav-menu__link:hover:after {
+  width: 100%;
+}
+
+.human-icon, .home-icon, .telephone-icon {
+  width: 14px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+.search-label__button, .booking__button, .subscriber-label__button, .activities-cards__button, .send-button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #EC1F46;
+}
+.search-label__button:hover, .booking__button:hover, .subscriber-label__button:hover, .activities-cards__button:hover, .send-button:hover {
+  background: lightcoral;
+  transition: 0.3s;
+}
+.search-label__button:active, .booking__button:active, .subscriber-label__button:active, .activities-cards__button:active, .send-button:active {
+  background: #333333;
+}
+
+.offer {
+  color: #ffffff;
+  padding: 3px 9px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  background: #EC1F46;
+}
+
+.stars .stars__icon {
+  width: 10px;
+  height: 10px;
+  fill: chocolate;
+}
+
+.slide-button__arrow-prev, .slide-button__arrow-next {
+  width: 30px;
+  height: 30px;
+  fill: cornsilk;
+}
+
+.footer-logo-link {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo-link:hover {
+  color: #000000;
+}
+
+.footer-social .fb-icon, .footer-social .yt-icon, .footer-social .inst-icon {
+  width: 21px;
+  height: 21px;
+  fill: #BDBDBD;
+  cursor: pointer;
+}
+.footer-social .fb-icon:hover, .footer-social .yt-icon:hover, .footer-social .inst-icon:hover {
+  fill: #ffffff;
+  transition: 0.3s;
+}
+
+.form-label__input-name, .form-label__input-phone, .modal-label__input-name, .modal-label__input-phone, .modal-label__input-email {
+  padding: 18px 23px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  outline: 0;
+}
+
+.form-textarea, .modal-textarea {
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  outline: 0;
+}
+
+.footer__link:hover, .disclaimer:hover, .conditions:hover, .cancellation:hover {
+  color: lightcoral;
+  transition: 0.3s;
+}
+
+.modal__close .close {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {

@@ -76,7 +76,7 @@
 .footer__link {
   text-decoration: none;
   color: $footer-color;
-  @extend %footer-hover;
+  @extend %footer-text-hover;
 }
 
 
@@ -155,7 +155,6 @@
   margin: 20px 0 20px 0;
   display: flex;
   align-items: center;
-
 }
 
 .tel-text {
@@ -163,19 +162,15 @@
   align-items: center;
 }
 
-
 .address-e-mail {
   display: flex;
   align-items: center;
-
 }
-
 
 .e-mail-text {
   text-decoration: none;
   color: $footer-color;
 }
-
 
 .form {
   grid-area: form;
@@ -183,7 +178,7 @@
 }
 
 .form-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
@@ -201,35 +196,21 @@
 }
 
 .form-label__input-name {
-  padding: 18px 23px;
-  border: none;
-  border-radius: 4px;
+  @extend %form-input;
   grid-area: name;
-  width: 100%;
-  height: 50px;
-  outline: 0;
 }
 
 .form-label__input-phone {
+  @extend %form-input;
   grid-area: phone;
-  padding: 18px 23px;
-  border: none;
-  border-radius: 4px;
-  width: 100%;
-  height: 50px;
-  outline: 0;
 }
 
-
 .form-textarea {
-  padding: 18px 20px;
-  border: 0;
-  border-radius: 4px;
+  @extend %textarea;
   grid-area: textarea;
-  resize: none;
   width: 100%;
   height: 210px;
-  outline: 0;
+
 }
 
 .send {
@@ -271,7 +252,7 @@
 .disclaimer, .conditions, .cancellation {
   text-decoration: none;
   color: $footer-color;
-  @extend %footer-hover;
+  @extend %footer-text-hover;
 }
 
 .icon-pay {
