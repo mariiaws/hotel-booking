@@ -203,7 +203,7 @@
                             </svg>
                             12100</a>
                     </div>
-                    <button class="button booking__button">View Other Options</button>
+                    <button data-toggle="modal" class="button booking__button">View Other Options</button>
                 </div>
 
                 <div class="map">
@@ -332,9 +332,9 @@
                     <div class="swiper-slide reviews-users">
                         <div class="reviews-hotel">
                             <div class="reviews-info">
-                                <img src="img/Valeria-Salounova.jpg" class="reviews-info__avatar"
+                                <img src="img/Valeria-Salnova.jpg" class="reviews-info__avatar"
                                      alt="Photo: review-guest">
-                                <div class="reviews-info__user">Valeria Salounova</div>
+                                <div class="reviews-info__user">Valeria Salnova</div>
                                 <div class="reviews-info__date">Stayed 28 January, 2021</div>
                                 <div class="stars">
                                     <svg class="stars__icon">
@@ -572,18 +572,18 @@
         <div class="modal-form">
             <div class="modal-title">Booking</div>
             <form action="send.php" method="post" class="modal-message">
-                    <input type="text" class="modal-label__input-name" placeholder="Your Full Name*" required
+                    <input type="text" class="modal__input-name" placeholder="Your Full Name*" required
                            maxlength="30" name="name">
-                    <input type="tel" class="modal-label__input-phone" placeholder="Phone Number*" required
+                    <input type="tel" class="modal__input-phone" placeholder="Phone Number*" required
                            maxlength="13" name="telephone"
                            pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
-                    <input type="email" class="modal-label__input-email" placeholder="Email*" required
+                    <input type="email" class="modal__input-email" placeholder="Email*" required
                            maxlength="30" name="name">
 
                     <!--resize:none;-->
                     <textarea class="modal-textarea" placeholder="Message"
                               maxlength="100" name="message"></textarea>
-                    <div class="send">
+                    <div class="send send-modal">
                         <button class="send-button">Send</button>
                         <span class="send-fields">* Required Fields</span>
                     </div>
@@ -593,6 +593,8 @@
 </div>
 
 </body>
+
+<script src="js/jquery-3.6.0.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
 

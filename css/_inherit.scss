@@ -134,12 +134,19 @@
   &:hover {
     color: $focus-light;
     transition: 0.3s;
+    cursor: pointer;
   }
 }
 
-%close{
+%button-close {
   width: 16px;
   height: 16px;
   fill: $light;
+
+  &:hover {
+    fill: $focus-light;
+    transition: 0.3s;
+    cursor: pointer;
+  }
 }
 

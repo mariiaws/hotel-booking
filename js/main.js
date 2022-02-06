@@ -60,9 +60,29 @@ menuButton.addEventListener("click", function () {
 
 });
 
-
 /*Прокрутки нет на самой меню, позади меню прокрутка должна быть отключена*/
 
 
+$(document).ready(function () {
 
+    let modalButton = $("[data-toggle=modal]");
+    modalButton.on("click", openModal);
+
+    function openModal() {
+        let modalWindow = $(".modal");
+        modalWindow.addClass("modal--visible");
+
+    }
+
+
+    let modalClose = $(".modal__close");
+    modalClose.on("click", closeModal);
+
+    function closeModal() {
+        let modalWindowClose = $(".modal");
+        modalWindowClose.removeClass("modal--visible");
+
+    }
+
+});
 

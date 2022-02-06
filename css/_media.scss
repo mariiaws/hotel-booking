@@ -167,6 +167,14 @@
   .footer-legal {
     grid-template-columns: 1fr 2fr 2.5fr;
   }
+
+  .send-modal{
+    flex-wrap: wrap-reverse;
+  }
+
+  .send-fields{
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -332,6 +340,11 @@
         "categ addit" 310px
         "legal legal" 1fr
         /1fr 1.5fr;
+  }
+
+  .modal__dialog{
+    padding: 30px 20px;
+    min-width: 100%;
   }
 }
 
