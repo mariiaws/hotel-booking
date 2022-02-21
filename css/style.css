@@ -5924,6 +5924,9 @@ img {
 .contact {
   grid-area: cont;
   color: #BDBDBD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-title {

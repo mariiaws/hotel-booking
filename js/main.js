@@ -60,7 +60,31 @@ menuButton.addEventListener("click", function () {
 
 });
 
-/*Прокрутки нет на самой меню, позади меню прокрутка должна быть отключена*/
+
+//No scroll for modal window
+const showDialog = () => {
+    const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
+    const body = document.body;
+    body.style.position = 'fixed';
+    body.style.top = `-${scrollY}`;
+    body.style.left = '0';
+    body.style.right = '0';
+
+};
+const closeDialog = () => {
+    const body = document.body;
+    const scrollY = body.style.top;
+    body.style.position = '';
+    body.style.top = '';
+    body.style.left = '';
+    body.style.right = '';
+    window.scrollTo(0, parseInt(scrollY || '0') * -1);
+}
+
+
+window.addEventListener('scroll', () => {
+    document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);
+});
 
 
 $(document).ready(function () {
@@ -74,7 +98,6 @@ $(document).ready(function () {
 
     }
 
-
     let modalClose = $(".modal__close");
     modalClose.on("click", closeModal);
 
@@ -84,5 +107,43 @@ $(document).ready(function () {
 
     }
 
+    //Переделать в нормальную валидацию!!! Либо остановиться на pattern.
+
+    /*$(".modal-message").validate(
+        {
+
+            errorClass: "invalid",
+            rules: {
+                name: {
+                    required: true,
+                },
+
+                telephone: "required",
+                email: {
+                    required: true,
+                    email: true,
+                }
+            },
+
+            messages: {
+                name: {
+                    required: "Please specify your name",
+                },
+
+                email: {
+                    required: "We need your email address to contact you",
+                    email: "Your email address must be in the format of name@domain.com"
+                }
+            }
+
+        });*/
+
+
+
+
+
 });
+
+
+
 

@@ -203,7 +203,9 @@
                             </svg>
                             12100</a>
                     </div>
-                    <button data-toggle="modal" class="button booking__button">View Other Options</button>
+                    <button data-toggle="modal" onClick='showDialog()' class="button booking__button">View Other
+                        Options
+                    </button>
                 </div>
 
                 <div class="map">
@@ -533,10 +535,10 @@
                 <form action="send.php" method="post" class="form-message">
                     <label for="user-name" class="form-label" id="user-name">
                         <input type="text" class="form-label__input-name" placeholder="Your Full Name*" required
-                               maxlength="100" name="name">
+                               maxlength="100" pattern="[a-zA-Z]+" name="name">
                         <input type="tel" class="form-label__input-phone" placeholder="Phone Number*" required
                                maxlength="13" name="telephone"
-                               pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+                               pattern="\+?[0-9\s\-\(\)]+">
                         <!--resize:none;-->
                         <textarea class="form-textarea" placeholder="Message"
                                   maxlength="100" name="message"></textarea>
@@ -564,7 +566,7 @@
 <div class="modal">
     <div class="modal__overlay"></div>
     <div class="modal__dialog">
-        <div class="modal__close">
+        <div class="modal__close" onClick='closeDialog()'>
             <svg class="close">
                 <use xlink:href="img/sprite.svg#close"></use>
             </svg>
@@ -572,21 +574,22 @@
         <div class="modal-form">
             <div class="modal-title">Booking</div>
             <form action="send.php" method="post" class="modal-message">
-                    <input type="text" class="modal__input-name" placeholder="Your Full Name*" required
-                           maxlength="30" name="name">
-                    <input type="tel" class="modal__input-phone" placeholder="Phone Number*" required
-                           maxlength="13" name="telephone"
-                           pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
-                    <input type="email" class="modal__input-email" placeholder="Email*" required
-                           maxlength="30" name="name">
+                <input type="text" class="modal__input-name" placeholder="Your Full Name*" required
+                       minlength="3" maxlength="30" pattern="[a-zA-Z]+" name="name">
 
-                    <!--resize:none;-->
-                    <textarea class="modal-textarea" placeholder="Message"
-                              maxlength="100" name="message"></textarea>
-                    <div class="send send-modal">
-                        <button class="send-button">Send</button>
-                        <span class="send-fields">* Required Fields</span>
-                    </div>
+                <input type="tel" class="modal__input-phone" placeholder="Phone Number*" required
+                       minlength="10" maxlength="13" pattern="\+?[0-9\s\-\(\)]+" name="telephone">
+
+                <input type="email" class="modal__input-email" placeholder="Email*" required
+                       minlength="5" maxlength="30" name="email">
+
+                <!--resize:none;-->
+                <textarea class="modal-textarea" placeholder="Message"
+                          maxlength="100" name="message"></textarea>
+                <div class="send send-modal">
+                    <button class="send-button">Send</button>
+                    <span class="send-fields">* Required Fields</span>
+                </div>
             </form>
         </div>
     </div>
@@ -596,6 +599,7 @@
 
 <script src="js/jquery-3.6.0.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>

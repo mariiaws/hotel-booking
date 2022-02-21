@@ -110,7 +110,9 @@
 .contact {
   grid-area: cont;
   color: $footer-color;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
